@@ -24,4 +24,4 @@ keywords:
   - cross-layer scheduling
   - continuous-fluid modeling
   - downward-closed admission control
-  - Pigouvian-EDF ordering
+  - real-time admission control
