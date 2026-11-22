@@ -1,0 +1,93 @@
+{
+  "total_trials": 10000,
+  "elapsed_s": 78.69218669999827,
+  "lemma1": {
+    "trials": 2500,
+    "violations": 0,
+    "examples": []
+  },
+  "theorem1": {
+    "zero_lag_trials": 2000,
+    "hereditary_inversions": 0,
+    "exact_feasible_fails": 0,
+    "active_link_fails": 0,
+    "nic_fails": 0,
+    "cpu_cap_fails": 0,
+    "fail_examples": [],
+    "live_fixed_episodes": 500,
+    "live_fixed_miss_episodes": 116,
+    "live_fixed_miss_rate": 0.005824602534984248,
+    "live_wall_episodes": 500,
+    "live_wall_miss_episodes": 13,
+    "live_wall_miss_rate": 0.0005542827581110043,
+    "live_illegal_actions": 0,
+    "live_skipped_ticks": 0
+  },
+  "theorem2": {
+    "trials": 2500,
+    "bound_violations": 0,
+    "max_excess": 0,
+    "max_ratio_calls_to_bound": 0.9523809523809523,
+    "worst_case": {
+      "trial": 775,
+      "calls": 20,
+      "bound": 21,
+      "P_cand": 15,
+      "M": 4,
+      "n_act": 1
+    }
+  },
+  "theorem3_anchors": {
+    "anchor1_uniform_deadline": {
+      "trials": 500,
+      "fails": 0
+    },
+    "anchor2_infinite_cpu_uniform_dl": {
+      "trials": 500,
+      "fails": 0
+    },
+    "anchor3_infinite_bw_uniform_dl": {
+      "trials": 500,
+      "fails": 0
+    },
+    "anchor4_single_task": {
+      "trials": 500,
+      "fails": 0
+    }
+  },
+  "empirical_general_deadline_gap": {
+    "anchor1_general_deadlines": {
+      "trials": 250,
+      "fails": 105,
+      "rate": 0.42
+    },
+    "anchor1_live_wall_boundary": {
+      "trials": 100,
+      "fails": 1,
+      "rate": 0.01
+    }
+  },
+  "fail_archive": {
+    "FAIL-1_CSI_6DB": {
+      "clean_ontime": 0.9461538461538461,
+      "noisy_6db_ontime": 0.8615384615384616,
+      "noisy_6db_miss": 0.07317073170731707,
+      "note": "Heavy >5 dB CSI error breaks deterministic Theorem 1 rate prediction"
+    },
+    "FAIL-2_SUBTICK_SAME_DEV": {
+      "ontime_count": "2/5",
+      "ontime_rate": 0.4,
+      "note": "Idle-radio 1-per-device causal gate caps admission to <= 1 task per tick_s on a single busy radio"
+    },
+    "FAIL-3_ZONE1_OVERHEAD_AND_INVERTED_DL": {
+      "clwb_ontime": 1.0,
+      "clwb_miss": 0.0,
+      "bambos_ontime": 1.0,
+      "clwb_p50_ms": 0.43819999882543925,
+      "bambos_p50_ms": 0.08594999962951988,
+      "inverted_dl_anchor1_gap_cnt": 105,
+      "inverted_dl_anchor1_gap_rate": 0.42,
+      "note": "Under orthogonal weak coupling CLWB matches Bambos at higher P50 latency; outside uniform/agreeable deadlines EDF diverges from smallest-share knapsack"
+    }
+  }
+}

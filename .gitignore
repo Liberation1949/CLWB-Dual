@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.exe
+*.obj
+*.pdb
+.DS_Store
+Thumbs.db
+figures/qa/
+supp_verification/generated_tables/

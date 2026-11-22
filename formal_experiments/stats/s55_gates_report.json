@@ -1,0 +1,68 @@
+{
+  "all_gates_passed": true,
+  "gate1_parity_equivalence": {
+    "passed": true,
+    "max_parity_err": 0.0,
+    "micro100_capture_s3": 0.9875,
+    "micro100_capture_s5": 0.9875,
+    "counterexample_checks": {
+      "L1": {
+        "stage3_ref": 2,
+        "preflight": 2,
+        "batch1_runtime": 2
+      },
+      "L2": {
+        "stage3_ref": 3,
+        "preflight": 3,
+        "batch1_runtime": 3
+      },
+      "L3": {
+        "stage3_ref": 3,
+        "preflight": 3,
+        "batch1_runtime": 3
+      },
+      "CE_2ndOrder": {
+        "stage3_ref": 4,
+        "preflight": 4,
+        "batch1_runtime": 4
+      }
+    }
+  },
+  "gate2_physical_fidelity_home_sanity": {
+    "passed": true,
+    "clwb_r2": 0.9878157981536534,
+    "spearman_rho": 1.0,
+    "azure_mean_mape_pct": 1.1791742800325427,
+    "azure_max_mape_pct": 3.9660280337541964,
+    "home_regime_sanity": true,
+    "max_bit_rel_err": 8.532716059422587e-14,
+    "illegal_actions_total": 0
+  },
+  "gate3_upstream_readonly": {
+    "passed": true,
+    "intact": true,
+    "stage2_files": 8,
+    "stage3_files": 6,
+    "stage4_files": 5,
+    "baseline_path": ".\\formal_experiments\\stats\\upstream_hashes_baseline.json"
+  },
+  "gate4_statistical_integrity_anti_pooling": {
+    "passed": true,
+    "anti_pooling_verified": true,
+    "main_k12_max_holm_p": 0.00341796875,
+    "all_24_max_holm_p": 0.00010806379394842202,
+    "azure_n64_verified": true
+  },
+  "gate5_data_hygiene_publication_assets": {
+    "passed": true,
+    "csv_count": 19,
+    "json_count": 7,
+    "figure_pairs": 8
+  },
+  "gate6_master_index": {
+    "passed": true,
+    "json_path": ".\\formal_experiments\\EXPERIMENT_MASTER_INDEX.json",
+    "md_path": ".\\formal_experiments\\EXPERIMENT_MASTER_INDEX.md",
+    "workloads_indexed": 24
+  }
+}

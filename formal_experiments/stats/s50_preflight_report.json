@@ -1,0 +1,230 @@
+{
+  "all_preflight_passed": true,
+  "elapsed_s": 45.211707900001784,
+  "upstream_readonly": {
+    "intact": true,
+    "stage2_files": 8,
+    "stage3_files": 6,
+    "stage4_files": 5,
+    "baseline_path": ".\\formal_experiments\\stats\\upstream_hashes_baseline.json"
+  },
+  "parity_gate": {
+    "passed": true,
+    "max_parity_err": 0.0,
+    "max_bit_rel_err": 9.218257200480319e-15,
+    "illegal_actions": 0,
+    "counterexamples": {
+      "passed": true,
+      "L1": {
+        "passed": true,
+        "champion": 2,
+        "oracle": 3,
+        "dgolb_cg": 0,
+        "edf_cg": 0
+      },
+      "L2": {
+        "passed": true,
+        "champion": 3,
+        "oracle": 3,
+        "oracle_nondelay": 2
+      },
+      "L3": {
+        "passed": true,
+        "champion": 3,
+        "oracle": 3,
+        "sfa_cg": 1
+      },
+      "CE_2ndOrder": {
+        "passed": true,
+        "champion": 4,
+        "oracle": 4,
+        "sfa_cg": 2,
+        "dgolb_cg": 1
+      }
+    },
+    "degenerate_anchors": {
+      "anchor1_single_srv_ortho": {
+        "admitted": 2,
+        "optimal": 2,
+        "match": true
+      },
+      "anchor2_inf_cpu_sinr": {
+        "admitted": 3,
+        "optimal": 3,
+        "match": true
+      },
+      "anchor3_inf_bw_pack": {
+        "admitted": 2,
+        "optimal": 2,
+        "match": true
+      },
+      "anchor4_single_task": {
+        "admitted": 1,
+        "optimal": 1,
+        "match": true
+      },
+      "passed": true
+    },
+    "parity_diffs": [
+      {
+        "item": "L1",
+        "got": 2,
+        "ref": 2,
+        "err": 0.0
+      },
+      {
+        "item": "L2",
+        "got": 3,
+        "ref": 3,
+        "err": 0.0
+      },
+      {
+        "item": "L3",
+        "got": 3,
+        "ref": 3,
+        "err": 0.0
+      },
+      {
+        "item": "CE_2ndOrder",
+        "got": 4,
+        "ref": 4,
+        "err": 0.0
+      },
+      {
+        "item": "anchor1_single_srv_ortho",
+        "got": 2,
+        "ref": 2,
+        "err": 0.0
+      },
+      {
+        "item": "anchor2_inf_cpu_sinr",
+        "got": 3,
+        "ref": 3,
+        "err": 0.0
+      },
+      {
+        "item": "anchor3_inf_bw_pack",
+        "got": 2,
+        "ref": 2,
+        "err": 0.0
+      },
+      {
+        "item": "anchor4_single_task",
+        "got": 1,
+        "ref": 1,
+        "err": 0.0
+      }
+    ]
+  },
+  "wallclock_calibration": {
+    "passed": true,
+    "clwb_r2": 0.9878157981536534,
+    "clwb_slope": 0.00918545290443894,
+    "clwb_intercept": 1.6666011369808302,
+    "spearman_rho": 1.0,
+    "mean_wall_ms_by_method": {
+      "EDF_PreBatch+CG": 0.30793666664976627,
+      "DGOLB+CG": 0.3129483333395911,
+      "Bambos_ALP+CG": 1.092706666640879,
+      "CLWB_Dual": 2.3539613333438565,
+      "SFA+CG": 304.22508333310054,
+      "IBR_5+CG": 1376.0827033333044
+    }
+  },
+  "azure_calibration": {
+    "passed": true,
+    "mean_mape_pct": 1.1791742800325427,
+    "max_mape_pct": 3.9660280337541964,
+    "samples": [
+      {
+        "file": "d01_PK.npz",
+        "stratum": "FLEET",
+        "n_samples": 2000,
+        "n_mc_reps": 100,
+        "raw_avg_ms": 8111.2263299999995,
+        "sampled_mean_ms": 8064.212999034905,
+        "rel_err_pct": 0.5796081757848645
+      },
+      {
+        "file": "d01_PK.npz",
+        "stratum": "BURST",
+        "n_samples": 2000,
+        "n_mc_reps": 100,
+        "raw_avg_ms": 2685.98158,
+        "sampled_mean_ms": 2690.189327812856,
+        "rel_err_pct": 0.15665587002483516
+      },
+      {
+        "file": "d04_EV.npz",
+        "stratum": "FLEET",
+        "n_samples": 2000,
+        "n_mc_reps": 100,
+        "raw_avg_ms": 877.3910900000001,
+        "sampled_mean_ms": 842.5935134049386,
+        "rel_err_pct": 3.9660280337541964
+      },
+      {
+        "file": "d04_EV.npz",
+        "stratum": "BURST",
+        "n_samples": 2000,
+        "n_mc_reps": 100,
+        "raw_avg_ms": 2842.5329500000003,
+        "sampled_mean_ms": 2857.724020994592,
+        "rel_err_pct": 0.5344202252639457
+      },
+      {
+        "file": "d08_RM.npz",
+        "stratum": "FLEET",
+        "n_samples": 2000,
+        "n_mc_reps": 100,
+        "raw_avg_ms": 748.4324950000002,
+        "sampled_mean_ms": 757.1922004766507,
+        "rel_err_pct": 1.1704068884195657
+      },
+      {
+        "file": "d08_RM.npz",
+        "stratum": "BURST",
+        "n_samples": 2000,
+        "n_mc_reps": 100,
+        "raw_avg_ms": 2232.173645,
+        "sampled_mean_ms": 2217.2643659903756,
+        "rel_err_pct": 0.6679264869478487
+      }
+    ]
+  },
+  "home_regime_sanity": {
+    "passed": true,
+    "ortho_ok": true,
+    "shared_ok": true,
+    "ortho_mean_ontime": {
+      "CLWB_Dual": 1.0,
+      "EDF_PreBatch+CG": 1.0,
+      "LLF_PreBatch+CG": 1.0,
+      "Bambos_ALP+CG": 1.0,
+      "Chen_Game+CG": 1.0,
+      "DGOLB+CG": 1.0,
+      "SFA+CG": 1.0,
+      "IBR_5+CG": 1.0
+    },
+    "ortho_skipped_ticks": {
+      "CLWB_Dual": 0,
+      "EDF_PreBatch+CG": 0,
+      "LLF_PreBatch+CG": 0,
+      "Bambos_ALP+CG": 0,
+      "Chen_Game+CG": 0,
+      "DGOLB+CG": 0,
+      "SFA+CG": 0,
+      "IBR_5+CG": 0
+    },
+    "shared_mean_ontime": {
+      "CLWB_Dual": 1.0,
+      "EDF_PreBatch+CG": 1.0,
+      "LLF_PreBatch+CG": 1.0,
+      "Bambos_ALP+CG": 1.0,
+      "Chen_Game+CG": 1.0,
+      "DGOLB+CG": 0.9444444444444445,
+      "SFA+CG": 1.0,
+      "IBR_5+CG": 1.0
+    }
+  }
+}

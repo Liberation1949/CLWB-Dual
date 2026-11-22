@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this artifact or codebase in your research, please cite the accompanying Computer Networks manuscript."
+title: "Cross-Layer Coupling in Shared-Uplink Wireless Edge Computing: Causal Continuous-Fluid Modeling and Sublinear-Verification Real-Time Admission Control"
+type: software
+authors:
+  - family-names: Xia
+    given-names: Sihan
+  - family-names: Wu
+    given-names: Jing
+  - family-names: Yu
+    given-names: Chenyan
+  - family-names: Liu
+    given-names: Yijun
+  - family-names: Hu
+    given-names: Wei
+    email: huwei@wust.edu.cn
+repository-code: "https://github.com/Liberation1949/CLWB-Dual"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-22"
+keywords:
+  - mobile edge computing
+  - shared-uplink interference
+  - cross-layer scheduling
+  - continuous-fluid modeling
+  - downward-closed admission control
+  - Pigouvian-EDF ordering

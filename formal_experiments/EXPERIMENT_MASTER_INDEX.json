@@ -1,0 +1,1550 @@
+{
+  "project": "CLWB-Dual Stage 5 Formal Experimental Suite",
+  "frozen_algorithm": "make_clwb_dual() default parameters",
+  "gates_passed": true,
+  "gate_summary": {
+    "gate1": true,
+    "gate2": true,
+    "gate3": true,
+    "gate4": true,
+    "gate5": true
+  },
+  "preflight": {
+    "parity_max_err": 0.0,
+    "micro100_capture_ratio": 0.9875,
+    "wallclock_r2": 0.9878157981536534,
+    "wallclock_spearman_rho": 1.0,
+    "azure_mean_mape_pct": 1.1791742800325427,
+    "azure_max_mape_pct": 3.9660280337541964
+  },
+  "batch2_scopes": {
+    "Main_K12": {
+      "clwb_ontime_mean": 0.9793775553150553,
+      "clwb_ontime_ci95": [
+        0.9705422171867484,
+        0.9874985645141895
+      ],
+      "clwb_worst_wk_ontime": 0.9466666666666667,
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.3440679338023089,
+          "delta_pp": 63.53096215127466,
+          "delta_pp_ci95": [
+            61.69471716795934,
+            65.39622239883957
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.34286610524891775,
+          "delta_pp": 63.65114500661375,
+          "delta_pp_ci95": [
+            61.857334036044975,
+            65.53792937748015
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.898265625,
+          "delta_pp": 8.11119303150553,
+          "delta_pp_ci95": [
+            5.391837271524763,
+            11.006411097582976
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 0.8333333333333334
+        },
+        "Chen_Game+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.7092741326960077,
+          "delta_pp": 27.010342261904764,
+          "delta_pp_ci95": [
+            23.782947668650785,
+            30.390400958994707
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "DGOLB+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.22897886979918228,
+          "delta_pp": 75.03986855158729,
+          "delta_pp_ci95": [
+            72.76936900628306,
+            77.1405753968254
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "SFA+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.1661324818121693,
+          "delta_pp": 81.3245073502886,
+          "delta_pp_ci95": [
+            76.43724980459355,
+            86.35525245009619
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "IBR_5+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.05069051752645503,
+          "delta_pp": 92.86870377886004,
+          "delta_pp_ci95": [
+            90.14044786593614,
+            95.43746617965367
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        }
+      }
+    },
+    "OOD_K4": {
+      "clwb_ontime_mean": 0.9716861129067011,
+      "clwb_ontime_ci95": [
+        0.9583484162895928,
+        0.9850238095238095
+      ],
+      "clwb_worst_wk_ontime": 0.9582352941176471,
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.33290546218487393,
+          "delta_pp": 63.878065072182714,
+          "delta_pp_ci95": [
+            62.461764705882345,
+            64.74660633484163
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.3325464878258996,
+          "delta_pp": 63.913962508080154,
+          "delta_pp_ci95": [
+            62.51176470588234,
+            64.78506787330318
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.8657474682180564,
+          "delta_pp": 10.59386446886447,
+          "delta_pp_ci95": [
+            5.07005494505494,
+            15.461538461538465
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 0.75
+        },
+        "Chen_Game+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.7096879982762336,
+          "delta_pp": 26.199811463046757,
+          "delta_pp_ci95": [
+            21.923529411764697,
+            29.897058823529413
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "DGOLB+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.20636123680241328,
+          "delta_pp": 76.53248761042877,
+          "delta_pp_ci95": [
+            73.25565610859728,
+            81.21785714285714
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "SFA+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.20770130359836242,
+          "delta_pp": 76.39848093083387,
+          "delta_pp_ci95": [
+            65.12637362637362,
+            87.72857142857141
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "IBR_5+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.08506868131868131,
+          "delta_pp": 88.66174315880198,
+          "delta_pp_ci95": [
+            81.94505494505495,
+            95.37843137254902
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        }
+      }
+    },
+    "Blind_K8": {
+      "clwb_ontime_mean": 0.951751488095238,
+      "clwb_ontime_ci95": [
+        0.9007842261904762,
+        0.9902132936507937
+      ],
+      "clwb_worst_wk_ontime": 0.8012499999999999,
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.4277991071428571,
+          "delta_pp": 52.39523809523809,
+          "delta_pp_ci95": [
+            35.926475694444434,
+            64.56875
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.765625
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.4279404761904762,
+          "delta_pp": 52.38110119047619,
+          "delta_pp_ci95": [
+            35.747767857142854,
+            64.61845238095239
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.765625
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.8634608134920635,
+          "delta_pp": 8.82906746031746,
+          "delta_pp_ci95": [
+            3.760317460317457,
+            14.01507936507937
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.390625
+        },
+        "Chen_Game+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.7178707837301588,
+          "delta_pp": 23.388070436507938,
+          "delta_pp_ci95": [
+            14.415403645833324,
+            31.618009052579367
+          ],
+          "wins": 8,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.0078125,
+          "holm_p": 0.0546875,
+          "cliffs_delta": 0.78125
+        },
+        "DGOLB+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.33478125000000003,
+          "delta_pp": 61.697023809523806,
+          "delta_pp_ci95": [
+            42.418055555555554,
+            74.7030753968254
+          ],
+          "wins": 8,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.0078125,
+          "holm_p": 0.0546875,
+          "cliffs_delta": 0.875
+        },
+        "SFA+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.2933876488095238,
+          "delta_pp": 65.83638392857142,
+          "delta_pp_ci95": [
+            44.524057539682545,
+            81.05237599206349
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.765625
+        },
+        "IBR_5+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.15716269841269842,
+          "delta_pp": 79.45887896825397,
+          "delta_pp_ci95": [
+            58.42361731150794,
+            93.03470982142855
+          ],
+          "wins": 8,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.0078125,
+          "holm_p": 0.0546875,
+          "cliffs_delta": 0.96875
+        }
+      }
+    },
+    "All_24": {
+      "clwb_ontime_mean": 0.9688869591737239,
+      "clwb_ontime_ci95": [
+        0.9501093525083645,
+        0.9829919103942082
+      ],
+      "clwb_worst_wk_ontime": 0.8012499999999999,
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.3701179129795858,
+          "delta_pp": 59.87690461941381,
+          "delta_pp_ci95": [
+            53.50715167768132,
+            64.1803603404017
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.9201388888888888
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.3695042926589342,
+          "delta_pp": 59.93826665147896,
+          "delta_pp_ci95": [
+            53.51033827092537,
+            64.31443828309234
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.9201388888888888
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.8812443283670306,
+          "delta_pp": 8.76426308066933,
+          "delta_pp_ci95": [
+            6.397226896367515,
+            11.166322040228287
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.6319444444444444
+        },
+        "Chen_Game+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.712208660637429,
+          "delta_pp": 25.667829853629485,
+          "delta_pp_ci95": [
+            22.092177135611184,
+            28.970811376633986
+          ],
+          "wins": 24,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 1.1920928955078125e-07,
+          "holm_p": 8.344650268554688e-07,
+          "cliffs_delta": 0.9340277777777778
+        },
+        "DGOLB+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.26047672436666003,
+          "delta_pp": 70.84102348070638,
+          "delta_pp_ci95": [
+            63.50783592169506,
+            75.63157129605315
+          ],
+          "wins": 24,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 1.1920928955078125e-07,
+          "holm_p": 8.344650268554688e-07,
+          "cliffs_delta": 0.9409722222222222
+        },
+        "SFA+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.215479007775653,
+          "delta_pp": 75.3407951398071,
+          "delta_pp_ci95": [
+            66.74698751118673,
+            81.76801040896399
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.9201388888888888
+        },
+        "IBR_5+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.09191093845390719,
+          "delta_pp": 87.69760207198165,
+          "delta_pp_ci95": [
+            79.75483735123382,
+            92.88057999521924
+          ],
+          "wins": 24,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 1.8197386214786344e-05,
+          "holm_p": 9.098693107393173e-05,
+          "cliffs_delta": 0.9965277777777778
+        }
+      }
+    }
+  },
+  "workload_24_table": [
+    {
+      "suite": "Blind_K8",
+      "wid": "BL01_MIXED_AR_CTRL",
+      "kappa_ul": 1.5678859156447424,
+      "rho_cmp": 0.7214577995684179,
+      "clwb_pct": 95.64285714285715,
+      "alp_pct": 81.07142857142857,
+      "chen_pct": 58.42857142857143,
+      "edf_pct": 26.71428571428571,
+      "dgolb_pct": 20.5,
+      "sfa_pct": 25.21428571428571,
+      "margin_vs_best_base_pp": 14.571428571428584,
+      "miss_pct": 0.28553391053391053,
+      "p99_ms_max": 6.464678000920685,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Blind_K8",
+      "wid": "BL02_NEAR_FAR_HEAVY",
+      "kappa_ul": 3.3690628300380028,
+      "rho_cmp": 0.7763139426944813,
+      "clwb_pct": 89.46666666666667,
+      "alp_pct": 70.39999999999999,
+      "chen_pct": 55.13333333333333,
+      "edf_pct": 29.133333333333333,
+      "dgolb_pct": 23.066666666666666,
+      "sfa_pct": 28.666666666666668,
+      "margin_vs_best_base_pp": 19.066666666666677,
+      "miss_pct": 0.19607843137254902,
+      "p99_ms_max": 5.901349999476224,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Blind_K8",
+      "wid": "BL03_CSI_NOISY_2DB",
+      "kappa_ul": 0.34299389203441644,
+      "rho_cmp": 0.7023133575456709,
+      "clwb_pct": 97.01388888888889,
+      "alp_pct": 84.375,
+      "chen_pct": 64.8611111111111,
+      "edf_pct": 29.444444444444446,
+      "dgolb_pct": 19.930555555555557,
+      "sfa_pct": 20.902777777777775,
+      "margin_vs_best_base_pp": 12.638888888888886,
+      "miss_pct": 1.6995323591488896,
+      "p99_ms_max": 7.057263998431154,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Blind_K8",
+      "wid": "BL04_SUBBAND_REUSE4",
+      "kappa_ul": 0.07379416605831238,
+      "rho_cmp": 0.752835796601582,
+      "clwb_pct": 99.72222222222221,
+      "alp_pct": 99.22222222222223,
+      "chen_pct": 84.77777777777777,
+      "edf_pct": 58.55555555555556,
+      "dgolb_pct": 41.5,
+      "sfa_pct": 15.944444444444445,
+      "margin_vs_best_base_pp": 0.4999999999999858,
+      "miss_pct": 0.15503875968992248,
+      "p99_ms_max": 12.268400000175461,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Blind_K8",
+      "wid": "BL05_ULTRA_BURST85",
+      "kappa_ul": 1.5949212979184644,
+      "rho_cmp": 0.8385822241460067,
+      "clwb_pct": 99.49999999999999,
+      "alp_pct": 98.2,
+      "chen_pct": 90.7,
+      "edf_pct": 41.6,
+      "dgolb_pct": 20.8,
+      "sfa_pct": 6.100000000000001,
+      "margin_vs_best_base_pp": 1.299999999999983,
+      "miss_pct": 0.0,
+      "p99_ms_max": 11.425569998755236,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Blind_K8",
+      "wid": "BL06_MICRO_EDGE_CELL",
+      "kappa_ul": 14.581620862862497,
+      "rho_cmp": 0.8100832794781235,
+      "clwb_pct": 80.12499999999999,
+      "alp_pct": 63.125,
+      "chen_pct": 54.6875,
+      "edf_pct": 27.0,
+      "dgolb_pct": 21.000000000000004,
+      "sfa_pct": 20.3125,
+      "margin_vs_best_base_pp": 16.999999999999986,
+      "miss_pct": 0.0,
+      "p99_ms_max": 4.905498002299282,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Blind_K8",
+      "wid": "BL07_TICK_FAST25MS",
+      "kappa_ul": 0.44366083913400356,
+      "rho_cmp": 0.7063350784837127,
+      "clwb_pct": 99.93055555555556,
+      "alp_pct": 94.375,
+      "chen_pct": 67.15277777777777,
+      "edf_pct": 29.79166666666667,
+      "dgolb_pct": 21.805555555555554,
+      "sfa_pct": 17.569444444444443,
+      "margin_vs_best_base_pp": 5.555555555555557,
+      "miss_pct": 0.0,
+      "p99_ms_max": 4.857425000409421,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Blind_K8",
+      "wid": "BL08_SPARSE_RELAXED",
+      "kappa_ul": 0.038668066539412044,
+      "rho_cmp": 0.3487294783541856,
+      "clwb_pct": 100.0,
+      "alp_pct": 100.0,
+      "chen_pct": 98.55555555555556,
+      "edf_pct": 100.0,
+      "dgolb_pct": 99.22222222222223,
+      "sfa_pct": 100.0,
+      "margin_vs_best_base_pp": 0.0,
+      "miss_pct": 0.0,
+      "p99_ms_max": 0.9999899993999861,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK01_BALANCED_MED",
+      "kappa_ul": 0.23599722094506181,
+      "rho_cmp": 0.6044906526483406,
+      "clwb_pct": 100.0,
+      "alp_pct": 98.88888888888889,
+      "chen_pct": 80.55555555555556,
+      "edf_pct": 40.34722222222222,
+      "dgolb_pct": 32.708333333333336,
+      "sfa_pct": 26.94444444444445,
+      "margin_vs_best_base_pp": 1.1111111111111143,
+      "miss_pct": 0.0,
+      "p99_ms_max": 6.50815999833867,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK02_DENSE_TIGHT",
+      "kappa_ul": 3.4210488747261167,
+      "rho_cmp": 0.7353282995118062,
+      "clwb_pct": 94.66666666666667,
+      "alp_pct": 76.53333333333333,
+      "chen_pct": 67.13333333333334,
+      "edf_pct": 28.6,
+      "dgolb_pct": 19.0,
+      "sfa_pct": 15.866666666666667,
+      "margin_vs_best_base_pp": 18.13333333333334,
+      "miss_pct": 0.0,
+      "p99_ms_max": 6.6877089996341965,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK03_DEADLINE_TIGHT",
+      "kappa_ul": 0.42605014823192233,
+      "rho_cmp": 0.7019957049302465,
+      "clwb_pct": 96.38888888888889,
+      "alp_pct": 82.29166666666666,
+      "chen_pct": 58.54166666666667,
+      "edf_pct": 25.972222222222225,
+      "dgolb_pct": 17.083333333333332,
+      "sfa_pct": 15.0,
+      "margin_vs_best_base_pp": 14.097222222222229,
+      "miss_pct": 0.3588093322606597,
+      "p99_ms_max": 7.06436499767733,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK04_HETERO_DEV",
+      "kappa_ul": 0.6707509935675116,
+      "rho_cmp": 0.7104767482440872,
+      "clwb_pct": 97.70833333333334,
+      "alp_pct": 89.16666666666666,
+      "chen_pct": 62.361111111111114,
+      "edf_pct": 34.236111111111114,
+      "dgolb_pct": 25.694444444444446,
+      "sfa_pct": 18.194444444444443,
+      "margin_vs_best_base_pp": 8.541666666666686,
+      "miss_pct": 0.1020408163265306,
+      "p99_ms_max": 7.324520000984196,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK05_HETERO_DL",
+      "kappa_ul": 0.9921763400018536,
+      "rho_cmp": 0.6998691220182672,
+      "clwb_pct": 98.92857142857142,
+      "alp_pct": 94.5,
+      "chen_pct": 71.28571428571429,
+      "edf_pct": 34.214285714285715,
+      "dgolb_pct": 26.64285714285714,
+      "sfa_pct": 31.285714285714285,
+      "margin_vs_best_base_pp": 4.428571428571416,
+      "miss_pct": 0.7865546218487396,
+      "p99_ms_max": 7.003762999920581,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK06_BURST_MODERATE",
+      "kappa_ul": 1.189499490148211,
+      "rho_cmp": 0.8542827858521601,
+      "clwb_pct": 98.3125,
+      "alp_pct": 88.0625,
+      "chen_pct": 71.75,
+      "edf_pct": 33.125,
+      "dgolb_pct": 18.3125,
+      "sfa_pct": 8.375,
+      "margin_vs_best_base_pp": 10.25,
+      "miss_pct": 0.0,
+      "p99_ms_max": 9.44898099896818,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK07_BURST_HEAVY",
+      "kappa_ul": 3.0756942845121236,
+      "rho_cmp": 0.900723342466929,
+      "clwb_pct": 97.3939393939394,
+      "alp_pct": 86.0,
+      "chen_pct": 72.06060606060606,
+      "edf_pct": 35.515151515151516,
+      "dgolb_pct": 18.06060606060606,
+      "sfa_pct": 4.666666666666667,
+      "margin_vs_best_base_pp": 11.393939393939405,
+      "miss_pct": 0.179549114331723,
+      "p99_ms_max": 9.637814000307117,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK08_HIGH_PAYLOAD",
+      "kappa_ul": 0.7696445068954989,
+      "rho_cmp": 0.641102788521785,
+      "clwb_pct": 99.33333333333334,
+      "alp_pct": 92.58333333333333,
+      "chen_pct": 75.66666666666666,
+      "edf_pct": 36.916666666666664,
+      "dgolb_pct": 27.583333333333332,
+      "sfa_pct": 21.749999999999996,
+      "margin_vs_best_base_pp": 6.750000000000014,
+      "miss_pct": 0.0,
+      "p99_ms_max": 5.645220002043062,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK09_SMALL_CELL_ASYM",
+      "kappa_ul": 3.0936096435781715,
+      "rho_cmp": 0.7105743495417155,
+      "clwb_pct": 97.1875,
+      "alp_pct": 85.78125,
+      "chen_pct": 70.46875,
+      "edf_pct": 31.093749999999996,
+      "dgolb_pct": 20.703125,
+      "sfa_pct": 25.234374999999996,
+      "margin_vs_best_base_pp": 11.40625,
+      "miss_pct": 0.43482418733954886,
+      "p99_ms_max": 5.88205200037919,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK10_DUAL_SUBBAND",
+      "kappa_ul": 0.2965782601966248,
+      "rho_cmp": 0.756521554484144,
+      "clwb_pct": 99.16666666666666,
+      "alp_pct": 97.33333333333334,
+      "chen_pct": 75.72222222222223,
+      "edf_pct": 38.166666666666664,
+      "dgolb_pct": 25.444444444444443,
+      "sfa_pct": 13.5,
+      "margin_vs_best_base_pp": 1.8333333333333144,
+      "miss_pct": 0.29822060721243543,
+      "p99_ms_max": 10.49922499951208,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK11_CSI_NOISE_2DB",
+      "kappa_ul": 0.4657312255543874,
+      "rho_cmp": 0.7082465814818768,
+      "clwb_pct": 96.66666666666666,
+      "alp_pct": 90.83333333333334,
+      "chen_pct": 63.47222222222222,
+      "edf_pct": 32.63888888888889,
+      "dgolb_pct": 23.26388888888889,
+      "sfa_pct": 18.541666666666664,
+      "margin_vs_best_base_pp": 5.833333333333314,
+      "miss_pct": 2.6282752862982517,
+      "p99_ms_max": 6.729926001353306,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "Main_K12",
+      "wid": "WK12_LARGE_SCALE",
+      "kappa_ul": 1.6198485367833744,
+      "rho_cmp": 0.8114153492802958,
+      "clwb_pct": 99.49999999999999,
+      "alp_pct": 95.94444444444446,
+      "chen_pct": 82.11111111111113,
+      "edf_pct": 42.05555555555556,
+      "dgolb_pct": 20.27777777777778,
+      "sfa_pct": 0.0,
+      "margin_vs_best_base_pp": 3.5555555555555287,
+      "miss_pct": 0.0,
+      "p99_ms_max": 14.576560000568861,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "OOD_K4",
+      "wid": "OOD1_ASYM_NEARFAR",
+      "kappa_ul": 3.2694255309732334,
+      "rho_cmp": 0.7506813059804537,
+      "clwb_pct": 95.82352941176471,
+      "alp_pct": 79.82352941176471,
+      "chen_pct": 66.52941176470588,
+      "edf_pct": 31.176470588235293,
+      "dgolb_pct": 20.647058823529413,
+      "sfa_pct": 13.882352941176471,
+      "margin_vs_best_base_pp": 16.0,
+      "miss_pct": 0.24644945697577272,
+      "p99_ms_max": 9.211620000496625,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "OOD_K4",
+      "wid": "OOD2_HETDL_CSI2DB",
+      "kappa_ul": 1.101881521968336,
+      "rho_cmp": 0.7098793563864788,
+      "clwb_pct": 98.07142857142857,
+      "alp_pct": 96.28571428571429,
+      "chen_pct": 67.57142857142857,
+      "edf_pct": 33.785714285714285,
+      "dgolb_pct": 23.0,
+      "sfa_pct": 27.357142857142858,
+      "margin_vs_best_base_pp": 1.7857142857142776,
+      "miss_pct": 1.4802878328787652,
+      "p99_ms_max": 6.934908003204327,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "OOD_K4",
+      "wid": "OOD3_EXTREME_BURST75",
+      "kappa_ul": 6.122921063444641,
+      "rho_cmp": 0.9252462658640672,
+      "clwb_pct": 98.93333333333332,
+      "alp_pct": 89.26666666666667,
+      "chen_pct": 79.46666666666667,
+      "edf_pct": 37.2,
+      "dgolb_pct": 15.666666666666668,
+      "sfa_pct": 5.533333333333333,
+      "margin_vs_best_base_pp": 9.666666666666657,
+      "miss_pct": 0.4063531353135313,
+      "p99_ms_max": 11.813236001180485,
+      "skipped_ticks": 0
+    },
+    {
+      "suite": "OOD_K4",
+      "wid": "OOD4_SPARSE_SRV",
+      "kappa_ul": 4.837706001308121,
+      "rho_cmp": 0.781651314004512,
+      "clwb_pct": 95.84615384615385,
+      "alp_pct": 80.92307692307692,
+      "chen_pct": 70.3076923076923,
+      "edf_pct": 31.0,
+      "dgolb_pct": 23.230769230769234,
+      "sfa_pct": 36.30769230769231,
+      "margin_vs_best_base_pp": 14.923076923076934,
+      "miss_pct": 0.32383262583383865,
+      "p99_ms_max": 4.732699998385215,
+      "skipped_ticks": 0
+    }
+  ],
+  "batch3_ablation": {
+    "full_20wk_ontime": 0.9681526131854257,
+    "full_ce": {
+      "L1": "2/4",
+      "L2": "3/3",
+      "L3": "3/4",
+      "CE_2ndOrder": "4/5"
+    },
+    "ablation": {
+      "LOO_no_ext": {
+        "ontime_20wk": 0.9688559839466089,
+        "gain_20wk_pp": -0.07033707611832307,
+        "gain_20wk_ci95_pp": [
+          -0.16860982593794627,
+          0.02521329365079598
+        ],
+        "gain_main12_pp": -0.115756899350646,
+        "gain_blind8_pp": -0.0022073412698386807,
+        "miss_delta_pp": -0.08999112927489109,
+        "wk_helped": 7,
+        "wk_hurt": 9,
+        "ce": {
+          "L1": "2/4",
+          "L2": "3/3",
+          "L3": "1/4",
+          "CE_2ndOrder": "2/5"
+        }
+      },
+      "LOO_no_defer": {
+        "ontime_20wk": 0.6929660082972584,
+        "gain_20wk_pp": 27.51866048881674,
+        "gain_20wk_ci95_pp": [
+          22.658342865034268,
+          31.781737475198412
+        ],
+        "gain_main12_pp": 28.828455312049055,
+        "gain_blind8_pp": 25.553968253968254,
+        "miss_delta_pp": 6.947808034612849,
+        "wk_helped": 19,
+        "wk_hurt": 0,
+        "ce": {
+          "L1": "2/4",
+          "L2": "1/3",
+          "L3": "3/4",
+          "CE_2ndOrder": "1/5"
+        }
+      },
+      "LOO_no_fluid": {
+        "ontime_20wk": 0.3758917568542569,
+        "gain_20wk_pp": 59.226085633116895,
+        "gain_20wk_ci95_pp": [
+          56.30483882350288,
+          61.94298842780484
+        ],
+        "gain_main12_pp": 59.7534793620731,
+        "gain_blind8_pp": 58.43499503968254,
+        "miss_delta_pp": 84.7146626722121,
+        "wk_helped": 20,
+        "wk_hurt": 0,
+        "ce": {
+          "L1": "0/4",
+          "L2": "0/3",
+          "L3": "0/4",
+          "CE_2ndOrder": "0/5"
+        }
+      },
+      "sub_no_backfill": {
+        "ontime_20wk": 0.9028120851370851,
+        "gain_20wk_pp": 6.5340528048340545,
+        "gain_20wk_ci95_pp": [
+          3.730623917748916,
+          9.614608760597045
+        ],
+        "gain_main12_pp": 5.984185230278979,
+        "gain_blind8_pp": 7.358854166666667,
+        "miss_delta_pp": -0.12595878510591363,
+        "wk_helped": 15,
+        "wk_hurt": 2,
+        "ce": {
+          "L1": "2/4",
+          "L2": "3/3",
+          "L3": "3/4",
+          "CE_2ndOrder": "4/5"
+        }
+      },
+      "sub_no_act_half_slack": {
+        "ontime_20wk": 0.9648399463383835,
+        "gain_20wk_pp": 0.331266684704189,
+        "gain_20wk_ci95_pp": [
+          0.09961482007575799,
+          0.5928675595238179
+        ],
+        "gain_main12_pp": 0.2579808501683545,
+        "gain_blind8_pp": 0.4411954365079407,
+        "miss_delta_pp": 0.1394720047815587,
+        "wk_helped": 14,
+        "wk_hurt": 3,
+        "ce": {
+          "L1": "2/4",
+          "L2": "3/3",
+          "L3": "3/4",
+          "CE_2ndOrder": "4/5"
+        }
+      },
+      "sub_no_edge_shield": {
+        "ontime_20wk": 0.8524132936507935,
+        "gain_20wk_pp": 11.573931953463202,
+        "gain_20wk_ci95_pp": [
+          6.04596225649351,
+          18.05732860412157
+        ],
+        "gain_main12_pp": 8.19445008116883,
+        "gain_blind8_pp": 16.64315476190476,
+        "miss_delta_pp": 15.299928530496484,
+        "wk_helped": 20,
+        "wk_hurt": 0,
+        "ce": {
+          "L1": "2/4",
+          "L2": "3/3",
+          "L3": "3/4",
+          "CE_2ndOrder": "4/5"
+        }
+      },
+      "sub_no_local_first": {
+        "ontime_20wk": 0.8826680104617605,
+        "gain_20wk_pp": 8.548460272366523,
+        "gain_20wk_ci95_pp": [
+          5.611672748692283,
+          11.71860279130592
+        ],
+        "gain_main12_pp": 8.675161961880713,
+        "gain_blind8_pp": 8.358407738095238,
+        "miss_delta_pp": 0.06306298261868253,
+        "wk_helped": 19,
+        "wk_hurt": 0,
+        "ce": {
+          "L1": "2/4",
+          "L2": "3/3",
+          "L3": "3/4",
+          "CE_2ndOrder": "4/5"
+        }
+      },
+      "Baseline_S00": {
+        "ontime_20wk": 0.69143759244228,
+        "gain_20wk_pp": 27.671502074314567,
+        "gain_20wk_ci95_pp": [
+          22.760765591179645,
+          31.981460013077193
+        ],
+        "gain_main12_pp": 28.829289171476663,
+        "gain_blind8_pp": 25.934821428571425,
+        "miss_delta_pp": 7.107814498471078,
+        "wk_helped": 19,
+        "wk_hurt": 0,
+        "ce": {
+          "L1": "2/4",
+          "L2": "1/3",
+          "L3": "1/4",
+          "CE_2ndOrder": "1/5"
+        }
+      }
+    },
+    "synergy_2x2": {
+      "S00_Baseline": 0.69143759244228,
+      "S10_OnlyExt": 0.6929660082972584,
+      "S01_OnlyDefer": 0.9688559839466089,
+      "S11_Full": 0.9681526131854257,
+      "synergy_20wk_pp": -0.22317866161615743,
+      "synergy_ci95_pp": [
+        -0.429317697059883,
+        -0.045197409361465046
+      ],
+      "ce_2nd_order": {
+        "S00": "1/5",
+        "S10": "1/5",
+        "S01": "2/5",
+        "S11": "4/5"
+      }
+    }
+  },
+  "batch4_azure_64": {
+    "n_scenarios": 64,
+    "mean_kappa_ul": 1.8595719536837465,
+    "mean_rho_cmp": 0.7519685911269826,
+    "mean_window_s": 0.4740278148093984,
+    "overall": {
+      "CLWB_Dual": {
+        "ontime_mean": 0.9962797619047619,
+        "ontime_ci95": [
+          0.9946056547619049,
+          0.9977678571428571
+        ],
+        "miss_mean": 0.0005408653846153846,
+        "p99_ms_max": 7.173183998529566,
+        "skipped_ticks_sum": 0
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 0.978515625,
+        "ontime_ci95": [
+          0.9730282738095237,
+          0.9835379464285714
+        ],
+        "miss_mean": 0.0,
+        "p99_ms_max": 2.858532002137509,
+        "skipped_ticks_sum": 0
+      },
+      "Chen_Game+CG": {
+        "ontime_mean": 0.9527529761904763,
+        "ontime_ci95": [
+          0.9401971726190477,
+          0.964657738095238
+        ],
+        "miss_mean": 0.06393013463770987,
+        "p99_ms_max": 6.408467996516267,
+        "skipped_ticks_sum": 0
+      },
+      "EDF_PreBatch+CG": {
+        "ontime_mean": 0.6919642857142857,
+        "ontime_ci95": [
+          0.6666666666666667,
+          0.7162388392857143
+        ],
+        "miss_mean": 0.8290271806263521,
+        "p99_ms_max": 1.2165319993073354,
+        "skipped_ticks_sum": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.6819196428571428,
+        "ontime_ci95": [
+          0.6555966331845238,
+          0.7081473214285714
+        ],
+        "miss_mean": 0.8467968567510742,
+        "p99_ms_max": 1.2039279997406989,
+        "skipped_ticks_sum": 0
+      },
+      "SFA+CG": {
+        "ontime_mean": 0.5729166666666667,
+        "ontime_ci95": [
+          0.5146019345238095,
+          0.6310477120535715
+        ],
+        "miss_mean": 0.5828159411680615,
+        "p99_ms_max": 400.2650899976288,
+        "skipped_ticks_sum": 138
+      }
+    },
+    "pairwise_vs_cg": {
+      "Bambos_ALP+CG": {
+        "n_stat": 64,
+        "delta_pp": 1.7764136904761902,
+        "delta_pp_ci95": [
+          1.3113839285714284,
+          2.3065476190476195
+        ],
+        "wins": 50,
+        "ties": 11,
+        "losses": 3,
+        "raw_p": 5.183172792722728e-10,
+        "holm_p": 5.183172792722728e-10,
+        "cliffs_delta": 0.6494140625
+      },
+      "Chen_Game+CG": {
+        "n_stat": 64,
+        "delta_pp": 4.352678571428573,
+        "delta_pp_ci95": [
+          3.245907738095239,
+          5.589657738095239
+        ],
+        "wins": 57,
+        "ties": 4,
+        "losses": 3,
+        "raw_p": 4.0914599558954196e-11,
+        "holm_p": 8.182919911790839e-11,
+        "cliffs_delta": 0.772705078125
+      },
+      "EDF_PreBatch+CG": {
+        "n_stat": 64,
+        "delta_pp": 30.43154761904762,
+        "delta_pp_ci95": [
+          28.059895833333332,
+          32.94294084821429
+        ],
+        "wins": 64,
+        "ties": 0,
+        "losses": 0,
+        "raw_p": 3.498852334010657e-12,
+        "holm_p": 1.7494261670053283e-11,
+        "cliffs_delta": 1.0
+      },
+      "DGOLB+CG": {
+        "n_stat": 64,
+        "delta_pp": 31.4360119047619,
+        "delta_pp_ci95": [
+          28.90625,
+          34.09598214285714
+        ],
+        "wins": 64,
+        "ties": 0,
+        "losses": 0,
+        "raw_p": 3.5114253322010675e-12,
+        "holm_p": 1.7494261670053283e-11,
+        "cliffs_delta": 1.0
+      },
+      "SFA+CG": {
+        "n_stat": 64,
+        "delta_pp": 42.336309523809526,
+        "delta_pp_ci95": [
+          36.4208984375,
+          48.140113467261905
+        ],
+        "wins": 60,
+        "ties": 3,
+        "losses": 1,
+        "raw_p": 1.1951006569347093e-11,
+        "holm_p": 3.585301970804128e-11,
+        "cliffs_delta": 0.907958984375
+      }
+    },
+    "by_stratum": {
+      "FLEET": {
+        "CLWB_Dual": {
+          "ontime_mean": 0.9968377976190477,
+          "ontime_ci95": [
+            0.9949776785714286,
+            0.9985119047619048
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9745163690476191,
+          "ontime_ci95": [
+            0.9642857142857143,
+            0.9836309523809523
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9410342261904762,
+          "ontime_ci95": [
+            0.9211309523809523,
+            0.9590773809523809
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.6646205357142857,
+          "ontime_ci95": [
+            0.625,
+            0.7029389880952381
+          ]
+        },
+        "DGOLB+CG": {
+          "ontime_mean": 0.6568080357142857,
+          "ontime_ci95": [
+            0.6153273809523809,
+            0.6969866071428572
+          ]
+        },
+        "SFA+CG": {
+          "ontime_mean": 0.6274181547619047,
+          "ontime_ci95": [
+            0.5412946428571428,
+            0.7096354166666666
+          ]
+        }
+      },
+      "BURST": {
+        "CLWB_Dual": {
+          "ontime_mean": 0.9957217261904762,
+          "ontime_ci95": [
+            0.9931175595238095,
+            0.9979538690476191
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9825148809523809,
+          "ontime_ci95": [
+            0.9780505952380953,
+            0.9867931547619048
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9644717261904763,
+          "ontime_ci95": [
+            0.9490327380952381,
+            0.9771205357142858
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.7193080357142858,
+          "ontime_ci95": [
+            0.6921502976190477,
+            0.7457217261904762
+          ]
+        },
+        "DGOLB+CG": {
+          "ontime_mean": 0.70703125,
+          "ontime_ci95": [
+            0.6750372023809524,
+            0.7369791666666667
+          ]
+        },
+        "SFA+CG": {
+          "ontime_mean": 0.5184151785714285,
+          "ontime_ci95": [
+            0.44140625000000006,
+            0.597846912202381
+          ]
+        }
+      }
+    },
+    "by_window": {
+      "TR": {
+        "CLWB_Dual": {
+          "ontime_mean": 0.9955357142857143,
+          "ontime_ci95": [
+            0.9918154761904763,
+            0.9985119047619048
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9691220238095238,
+          "ontime_ci95": [
+            0.953125,
+            0.9828869047619048
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9471726190476191,
+          "ontime_ci95": [
+            0.9136904761904763,
+            0.9754464285714286
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.6793154761904763,
+          "ontime_ci95": [
+            0.6175595238095238,
+            0.7336402529761904
+          ]
+        },
+        "DGOLB+CG": {
+          "ontime_mean": 0.6592261904761905,
+          "ontime_ci95": [
+            0.6049107142857143,
+            0.7090773809523809
+          ]
+        },
+        "SFA+CG": {
+          "ontime_mean": 0.5212053571428572,
+          "ontime_ci95": [
+            0.40811011904761907,
+            0.6331845238095237
+          ]
+        }
+      },
+      "RM": {
+        "CLWB_Dual": {
+          "ontime_mean": 0.9996279761904762,
+          "ontime_ci95": [
+            0.9988839285714286,
+            1.0
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9858630952380952,
+          "ontime_ci95": [
+            0.9784226190476191,
+            0.9921875
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9598214285714286,
+          "ontime_ci95": [
+            0.9434430803571429,
+            0.9750744047619048
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.6878720238095237,
+          "ontime_ci95": [
+            0.6402436755952381,
+            0.7351190476190477
+          ]
+        },
+        "DGOLB+CG": {
+          "ontime_mean": 0.6848958333333333,
+          "ontime_ci95": [
+            0.6335565476190476,
+            0.7358630952380952
+          ]
+        },
+        "SFA+CG": {
+          "ontime_mean": 0.5636160714285714,
+          "ontime_ci95": [
+            0.44717261904761907,
+            0.6811848958333332
+          ]
+        }
+      },
+      "PK": {
+        "CLWB_Dual": {
+          "ontime_mean": 0.9936755952380953,
+          "ontime_ci95": [
+            0.9903273809523809,
+            0.9966517857142858
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9776785714285714,
+          "ontime_ci95": [
+            0.9702380952380952,
+            0.9847470238095238
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9475446428571428,
+          "ontime_ci95": [
+            0.9200148809523809,
+            0.9724702380952381
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.7038690476190477,
+          "ontime_ci95": [
+            0.6599702380952381,
+            0.7436755952380952
+          ]
+        },
+        "DGOLB+CG": {
+          "ontime_mean": 0.6793154761904763,
+          "ontime_ci95": [
+            0.6279668898809524,
+            0.7273065476190477
+          ]
+        },
+        "SFA+CG": {
+          "ontime_mean": 0.5297619047619048,
+          "ontime_ci95": [
+            0.4289434523809524,
+            0.6357886904761905
+          ]
+        }
+      },
+      "EV": {
+        "CLWB_Dual": {
+          "ontime_mean": 0.996279761904762,
+          "ontime_ci95": [
+            0.9929315476190477,
+            0.9988839285714286
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9813988095238095,
+          "ontime_ci95": [
+            0.9702380952380952,
+            0.9903273809523809
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9564732142857143,
+          "ontime_ci95": [
+            0.9345145089285715,
+            0.9761904761904762
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.6968005952380952,
+          "ontime_ci95": [
+            0.6499255952380952,
+            0.7429315476190477
+          ]
+        },
+        "DGOLB+CG": {
+          "ontime_mean": 0.7042410714285714,
+          "ontime_ci95": [
+            0.6476934523809524,
+            0.7566964285714286
+          ]
+        },
+        "SFA+CG": {
+          "ontime_mean": 0.6770833333333333,
+          "ontime_ci95": [
+            0.5561755952380952,
+            0.7898065476190477
+          ]
+        }
+      }
+    }
+  },
+  "batch4_boundaries": {
+    "FAIL-1_CSI_6DB": {
+      "clean_0db_ontime": 0.9415384615384615,
+      "noisy_6db_ontime": 0.8438461538461539,
+      "noisy_6db_miss": 0.06434306129061208,
+      "drop_pp": 9.769230769230763,
+      "boundary": "Recommended CSI noise <= 2-3 dB; >= 6 dB degrades deterministic fluid prediction."
+    },
+    "FAIL-2_SUBTICK_SAME_DEV": {
+      "clwb_ontime": 0.4,
+      "clwb_count": "2/5",
+      "alp_ontime": 0.4,
+      "boundary": "Causal idle-radio gate caps per-device admissions at <= 1 per tick_s."
+    },
+    "FAIL-3_ZONE1_WEAK_AND_INVERTED_DL": {
+      "clwb_ontime": 1.0,
+      "alp_ontime": 1.0,
+      "clwb_p50_ms": 0.49801999903138494,
+      "alp_p50_ms": 0.0851499999043881,
+      "inverted_dl_gap_rate_eta1": 0.41200000000000003,
+      "boundary": "Zone I orthogonal weak coupling needs no cross-layer solver (simpler ALP suffices at lower P50); inverted deadlines violate Theorem 3."
+    }
+  },
+  "assets": {
+    "csv_files": [
+      "s50_wallclock_calib.csv",
+      "s50_home_sanity.csv",
+      "b1a_ortho_vs_shared.csv",
+      "b1b_kappa_sweep.csv",
+      "b1c_burst_cliff.csv",
+      "b1d_counterexamples.csv",
+      "b2_episodes.csv",
+      "b2_workload_agg.csv",
+      "b2_micro100.csv",
+      "b3a_grafting.csv",
+      "b3b_ablation_synergy.csv",
+      "b3c_xray_traces.csv",
+      "b3d_sensitivity_10s.csv",
+      "b3e_regime_map_10s.csv",
+      "b4a_azure_trace.csv",
+      "b4b_cross_hw.csv",
+      "b4b_perturb_sweep.csv",
+      "b4c_scalability.csv",
+      "b4d_theorem_boundaries.csv"
+    ],
+    "stats_files": [
+      "upstream_hashes_baseline.json",
+      "exp_config.json",
+      "s50_preflight_report.json",
+      "b1_summary.json",
+      "b2_summary.json",
+      "b3_summary.json",
+      "b4_summary.json",
+      "s55_gates_report.json"
+    ],
+    "figure_stems": [
+      "fig1_motivation_dual_deadlock",
+      "fig2_main_benchmark_comparison",
+      "fig3_oracle_and_ce2",
+      "fig4_whitebox_xray_and_grafting",
+      "fig5_sensitivity_operating_point",
+      "fig6_regime_map_2d",
+      "fig7_azure_trace_and_robustness",
+      "fig8_scalability_and_boundaries"
+    ]
+  }
+}

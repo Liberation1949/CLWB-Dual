@@ -1,0 +1,87 @@
+{
+  "counterexamples": {
+    "L1_prebatch": {
+      "oracle": "3/4",
+      "RouteA_CLSP": "2/4",
+      "RouteB_Waterfill": "2/4",
+      "RouteC_Whittle": "2/4",
+      "Chen_Game+CG": "2/4",
+      "SFA+CG": "2/4"
+    },
+    "L2_nondelay": {
+      "oracle": "3/3",
+      "RouteA_CLSP": "3/3",
+      "RouteB_Waterfill": "3/3",
+      "RouteC_Whittle": "3/3",
+      "Chen_Game+CG": "3/3",
+      "SFA+CG": "3/3"
+    },
+    "L3_myopic": {
+      "oracle": "3/4",
+      "RouteA_CLSP": "2/4",
+      "RouteB_Waterfill": "3/4",
+      "RouteC_Whittle": "1/4",
+      "Chen_Game+CG": "1/4",
+      "SFA+CG": "1/4"
+    },
+    "CE_2ndOrder": {
+      "oracle": "4/5",
+      "RouteA_CLSP": "3/5",
+      "RouteB_Waterfill": "4/5",
+      "RouteC_Whittle": "2/5",
+      "Chen_Game+CG": "2/5",
+      "SFA+CG": "2/5"
+    }
+  },
+  "micro_100_oracle_mean": 1.0,
+  "micro_100_route_means": {
+    "RouteA_CLSP": 0.9725,
+    "RouteB_Waterfill": 0.9518333333333334,
+    "RouteC_Whittle": 0.9895
+  },
+  "main_k12_mean_ontime": {
+    "RouteA_CLSP": 0.8201380809583934,
+    "RouteB_Waterfill": 0.8393274636243387,
+    "RouteC_Whittle": 0.4368445616883117,
+    "Chen_Game+CG": 0.6877972056878306
+  },
+  "main_k12_mean_miss": {
+    "RouteA_CLSP": 0.04382393651435426,
+    "RouteB_Waterfill": 0.02051833652361387,
+    "RouteC_Whittle": 0.005787037037037038,
+    "Chen_Game+CG": 0.2255327159454228
+  },
+  "main_k12_max_p99_ms": {
+    "RouteA_CLSP": 18.38172599913378,
+    "RouteB_Waterfill": 25.106095998962697,
+    "RouteC_Whittle": 11.996346999694648,
+    "Chen_Game+CG": 12.449062001032873
+  },
+  "main_k12_total_skipped_ticks": {
+    "RouteA_CLSP": 0,
+    "RouteB_Waterfill": 0,
+    "RouteC_Whittle": 0,
+    "Chen_Game+CG": 0
+  },
+  "burst_p70": {
+    "RouteA_CLSP": {
+      "ontime_rate": 0.9857142857142858,
+      "decision_p99_ms": 4.350260000210254,
+      "skipped_ticks": 0,
+      "miss_rate": 0.0
+    },
+    "RouteB_Waterfill": {
+      "ontime_rate": 0.9428571428571428,
+      "decision_p99_ms": 15.379900000625629,
+      "skipped_ticks": 0,
+      "miss_rate": 0.0
+    },
+    "RouteC_Whittle": {
+      "ontime_rate": 0.4857142857142857,
+      "decision_p99_ms": 6.104240000568093,
+      "skipped_ticks": 0,
+      "miss_rate": 0.0
+    }
+  },
+  "elapsed_s": 11.148022699999274
+}

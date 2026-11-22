@@ -1,0 +1,1460 @@
+{
+  "batch": 1,
+  "elapsed_s": 281.23526409999977,
+  "exp_1a_ortho_vs_shared": {
+    "orthogonal": {
+      "CLWB_Dual": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 0.8957520014519104,
+        "total_skipped_ticks": 0
+      },
+      "EDF_PreBatch+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 0.3628200022649253,
+        "total_skipped_ticks": 0
+      },
+      "LLF_PreBatch+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 0.6506600002467164,
+        "total_skipped_ticks": 0
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 0.3197060000820783,
+        "total_skipped_ticks": 0
+      },
+      "Chen_Game+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 0.7063859998743282,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 0.48659399966709305,
+        "total_skipped_ticks": 0
+      },
+      "SFA+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 22.705350001706385,
+        "total_skipped_ticks": 0
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 0.16916666666666666,
+        "ontime_ci95": [
+          0.07999999999999999,
+          0.27083333333333337
+        ],
+        "miss_mean": 0.8848276027175531,
+        "miss_ci95": [
+          0.7785813118588543,
+          0.9742460073710074
+        ],
+        "wasted_mean": 0.8651900325994809,
+        "wasted_ci95": [
+          0.7422226119994122,
+          0.9657558025075925
+        ],
+        "max_p99_ms": 382.7140699981101,
+        "total_skipped_ticks": 59
+      }
+    },
+    "shared": {
+      "CLWB_Dual": {
+        "ontime_mean": 0.9916666666666666,
+        "ontime_ci95": [
+          0.9799999999999999,
+          1.0
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 6.449419999808015,
+        "total_skipped_ticks": 0
+      },
+      "EDF_PreBatch+CG": {
+        "ontime_mean": 0.38583333333333336,
+        "ontime_ci95": [
+          0.3591666666666667,
+          0.41500000000000004
+        ],
+        "miss_mean": 0.8466909837700884,
+        "miss_ci95": [
+          0.8128680197675936,
+          0.8792099447387844
+        ],
+        "wasted_mean": 0.7606036258000435,
+        "wasted_ci95": [
+          0.7037257157542138,
+          0.81337008005343
+        ],
+        "max_p99_ms": 1.027092000003904,
+        "total_skipped_ticks": 0
+      },
+      "LLF_PreBatch+CG": {
+        "ontime_mean": 0.38583333333333336,
+        "ontime_ci95": [
+          0.3591666666666667,
+          0.41500000000000004
+        ],
+        "miss_mean": 0.8466909837700884,
+        "miss_ci95": [
+          0.8128680197675936,
+          0.8792099447387844
+        ],
+        "wasted_mean": 0.7604569005195014,
+        "wasted_ci95": [
+          0.7035572707086298,
+          0.8132422365606911
+        ],
+        "max_p99_ms": 1.2428419984644279,
+        "total_skipped_ticks": 0
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 0.9391666666666666,
+        "ontime_ci95": [
+          0.9133333333333333,
+          0.96
+        ],
+        "miss_mean": 0.0,
+        "miss_ci95": [
+          0.0,
+          0.0
+        ],
+        "wasted_mean": 0.0,
+        "wasted_ci95": [
+          0.0,
+          0.0
+        ],
+        "max_p99_ms": 2.177961998859246,
+        "total_skipped_ticks": 0
+      },
+      "Chen_Game+CG": {
+        "ontime_mean": 0.7175,
+        "ontime_ci95": [
+          0.6791666666666666,
+          0.7516666666666667
+        ],
+        "miss_mean": 0.2637478257077902,
+        "miss_ci95": [
+          0.23134351741267917,
+          0.2967821294117959
+        ],
+        "wasted_mean": 0.2216218637410276,
+        "wasted_ci95": [
+          0.1906486853100441,
+          0.2531238686036201
+        ],
+        "max_p99_ms": 5.177570000014382,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.24666666666666667,
+        "ontime_ci95": [
+          0.22583333333333339,
+          0.2708333333333333
+        ],
+        "miss_mean": 0.8813438001452074,
+        "miss_ci95": [
+          0.8500980032789017,
+          0.9089034697382284
+        ],
+        "wasted_mean": 0.8064748683325981,
+        "wasted_ci95": [
+          0.7485519960578334,
+          0.8573367614578848
+        ],
+        "max_p99_ms": 1.5038149990868988,
+        "total_skipped_ticks": 0
+      },
+      "SFA+CG": {
+        "ontime_mean": 0.1975,
+        "ontime_ci95": [
+          0.17416666666666664,
+          0.22166666666666662
+        ],
+        "miss_mean": 0.7972003714513434,
+        "miss_ci95": [
+          0.7871947850841103,
+          0.8081735873846893
+        ],
+        "wasted_mean": 0.4953155107128297,
+        "wasted_ci95": [
+          0.3109759404869889,
+          0.6565293262558697
+        ],
+        "max_p99_ms": 702.7646520007693,
+        "total_skipped_ticks": 93
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 0.027500000000000004,
+        "ontime_ci95": [
+          0.0,
+          0.06
+        ],
+        "miss_mean": 1.0,
+        "miss_ci95": [
+          1.0,
+          1.0
+        ],
+        "wasted_mean": 1.0,
+        "wasted_ci95": [
+          1.0,
+          1.0
+        ],
+        "max_p99_ms": 3376.4744500008237,
+        "total_skipped_ticks": 426
+      }
+    }
+  },
+  "exp_1b_kappa_sweep": {
+    "0.0": {
+      "kappa_ul_mean": 0.0,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "0.05": {
+      "kappa_ul_mean": 0.018511676224068685,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.969,
+          "ontime_ci95": [
+            0.9189999999999999,
+            1.0
+          ],
+          "miss_mean": 0.020234016184296856,
+          "miss_ci95": [
+            0.0,
+            0.046775291001433746
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "0.15": {
+      "kappa_ul_mean": 0.05583594641612569,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 0.9780000000000001,
+          "ontime_ci95": [
+            0.9640000000000001,
+            0.991
+          ],
+          "miss_mean": 0.022222634508348795,
+          "miss_ci95": [
+            0.009152752009894866,
+            0.03640486497629355
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.9970000000000001,
+          "ontime_ci95": [
+            0.993,
+            1.0
+          ],
+          "miss_mean": 0.00418622848200313,
+          "miss_ci95": [
+            0.0,
+            0.00978090766823161
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9470000000000001,
+          "ontime_ci95": [
+            0.905,
+            0.9870000000000001
+          ],
+          "miss_mean": 0.060992198418611386,
+          "miss_ci95": [
+            0.015669081139254522,
+            0.11220046225534941
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "0.35": {
+      "kappa_ul_mean": 0.13079865465479298,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 0.4680000000000001,
+          "ontime_ci95": [
+            0.383,
+            0.5469999999999999
+          ],
+          "miss_mean": 0.5661007827398252,
+          "miss_ci95": [
+            0.4802480778497643,
+            0.6567418559548983
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.7780000000000001,
+          "ontime_ci95": [
+            0.704,
+            0.8370000000000001
+          ],
+          "miss_mean": 0.3157056347003778,
+          "miss_ci95": [
+            0.23361789609431946,
+            0.4191658819648336
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.9360000000000002,
+          "ontime_ci95": [
+            0.891,
+            0.977
+          ],
+          "miss_mean": 0.08135500739298208,
+          "miss_ci95": [
+            0.030044145569620255,
+            0.13839926611129147
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "0.7": {
+      "kappa_ul_mean": 0.2623536395544642,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 0.304,
+          "ontime_ci95": [
+            0.275,
+            0.337
+          ],
+          "miss_mean": 0.8266148410045491,
+          "miss_ci95": [
+            0.7820328881233208,
+            0.8663575055290782
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.5119999999999999,
+          "ontime_ci95": [
+            0.45199999999999996,
+            0.5700000000000001
+          ],
+          "miss_mean": 0.6960710187416076,
+          "miss_ci95": [
+            0.6181347234475599,
+            0.7776010719423202
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.89,
+          "ontime_ci95": [
+            0.8480000000000001,
+            0.925
+          ],
+          "miss_mean": 0.13019607133755554,
+          "miss_ci95": [
+            0.09921589839590997,
+            0.1609781825155143
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.999,
+          "ontime_ci95": [
+            0.9970000000000001,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "1.0": {
+      "kappa_ul_mean": 0.3752790170827645,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 0.277,
+          "ontime_ci95": [
+            0.24300000000000002,
+            0.309
+          ],
+          "miss_mean": 0.8898783316714025,
+          "miss_ci95": [
+            0.8703293913399983,
+            0.9104110990550951
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.396,
+          "ontime_ci95": [
+            0.367,
+            0.426
+          ],
+          "miss_mean": 0.8628510488329827,
+          "miss_ci95": [
+            0.8247140909659193,
+            0.9005535713613666
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.833,
+          "ontime_ci95": [
+            0.798,
+            0.867
+          ],
+          "miss_mean": 0.20346724340952443,
+          "miss_ci95": [
+            0.1710664679004617,
+            0.2311484264892546
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9860000000000001,
+          "ontime_ci95": [
+            0.9739499999999999,
+            0.9960000000000001
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 1.0,
+          "ontime_ci95": [
+            1.0,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "1.5": {
+      "kappa_ul_mean": 0.5636843598980589,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 0.248,
+          "ontime_ci95": [
+            0.223,
+            0.275
+          ],
+          "miss_mean": 0.9425343631482571,
+          "miss_ci95": [
+            0.9210934613644837,
+            0.9642170577286315
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.35300000000000004,
+          "ontime_ci95": [
+            0.33199999999999996,
+            0.375
+          ],
+          "miss_mean": 0.9254272050923265,
+          "miss_ci95": [
+            0.9013591801571125,
+            0.9481523578044977
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.744,
+          "ontime_ci95": [
+            0.6990000000000001,
+            0.7889999999999999
+          ],
+          "miss_mean": 0.2723352236531585,
+          "miss_ci95": [
+            0.2347145834238226,
+            0.3057295829170829
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.9400000000000001,
+          "ontime_ci95": [
+            0.9099999999999999,
+            0.9690000000000001
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 0.999,
+          "ontime_ci95": [
+            0.9970000000000001,
+            1.0
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "2.5": {
+      "kappa_ul_mean": 0.9407987657418481,
+      "methods": {
+        "DGOLB+CG": {
+          "ontime_mean": 0.25200000000000006,
+          "ontime_ci95": [
+            0.23200000000000004,
+            0.271
+          ],
+          "miss_mean": 0.9659010986225465,
+          "miss_ci95": [
+            0.9488206472964167,
+            0.9817923345031778
+          ]
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_mean": 0.32799999999999996,
+          "ontime_ci95": [
+            0.311,
+            0.345
+          ],
+          "miss_mean": 0.9595489690247211,
+          "miss_ci95": [
+            0.9438569470829138,
+            0.9760288867543047
+          ]
+        },
+        "Chen_Game+CG": {
+          "ontime_mean": 0.647,
+          "ontime_ci95": [
+            0.601,
+            0.688
+          ],
+          "miss_mean": 0.3250807727584656,
+          "miss_ci95": [
+            0.2871205311566335,
+            0.3652913454240624
+          ]
+        },
+        "Bambos_ALP+CG": {
+          "ontime_mean": 0.7949999999999999,
+          "ontime_ci95": [
+            0.759,
+            0.8270000000000002
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "CLWB_Dual": {
+          "ontime_mean": 0.986,
+          "ontime_ci95": [
+            0.9710000000000001,
+            0.998
+          ],
+          "miss_mean": 0.0,
+          "miss_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "exp_1c_burst_cliff": {
+    "8": {
+      "SFA+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 1.734740000392776,
+        "p99_ms_ci95": [
+          1.5612172500732413,
+          1.9221312508216215
+        ],
+        "p99_ms_max": 2.42910000088159,
+        "total_skipped_ticks": 0
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 7.248909999907482,
+        "p99_ms_ci95": [
+          6.964519249731893,
+          7.568312749281176
+        ],
+        "p99_ms_max": 8.158299999195151,
+        "total_skipped_ticks": 0
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 0.0883612996985903,
+        "p99_ms_ci95": [
+          0.07644085210095,
+          0.10222565505846432
+        ],
+        "p99_ms_max": 0.13178200017136987,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.4875,
+        "ontime_ci95": [
+          0.375,
+          0.6
+        ],
+        "p99_ms_mean": 0.10119000071426854,
+        "p99_ms_ci95": [
+          0.08620000116934534,
+          0.1276002513441199
+        ],
+        "p99_ms_max": 0.21560000095632859,
+        "total_skipped_ticks": 0
+      },
+      "CLWB_Dual": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 0.37579019958502613,
+        "p99_ms_ci95": [
+          0.3051589996994153,
+          0.47526485055095685
+        ],
+        "p99_ms_max": 0.7810020001488738,
+        "total_skipped_ticks": 0
+      }
+    },
+    "16": {
+      "SFA+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 9.41528000003018,
+        "p99_ms_ci95": [
+          8.30960325029082,
+          10.601617999791415
+        ],
+        "p99_ms_max": 12.865799999417504,
+        "total_skipped_ticks": 0
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 67.55609999927401,
+        "p99_ms_ci95": [
+          63.04431349914921,
+          73.0616142494273
+        ],
+        "p99_ms_max": 86.76159999959054,
+        "total_skipped_ticks": 10
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 0.3539110000092478,
+        "p99_ms_ci95": [
+          0.3020203132245115,
+          0.41240733676086166
+        ],
+        "p99_ms_max": 0.545067998682498,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.375,
+        "ontime_ci95": [
+          0.2875,
+          0.4625
+        ],
+        "p99_ms_mean": 0.16273999972327147,
+        "p99_ms_ci95": [
+          0.15999999923224095,
+          0.16547999949580117
+        ],
+        "p99_ms_max": 0.1692000005277805,
+        "total_skipped_ticks": 0
+      },
+      "CLWB_Dual": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 0.5778940005875484,
+        "p99_ms_ci95": [
+          0.48905800011198153,
+          0.6792189008631794
+        ],
+        "p99_ms_max": 0.8689399989452795,
+        "total_skipped_ticks": 0
+      }
+    },
+    "25": {
+      "SFA+CG": {
+        "ontime_mean": 0.06,
+        "ontime_ci95": [
+          0.0,
+          0.18
+        ],
+        "p99_ms_mean": 37.57217000020319,
+        "p99_ms_ci95": [
+          34.33098249980503,
+          40.85461175045566
+        ],
+        "p99_ms_max": 46.825500001432374,
+        "total_skipped_ticks": 0
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 284.4076999994286,
+        "p99_ms_ci95": [
+          257.07509249916257,
+          310.76780299836173
+        ],
+        "p99_ms_max": 366.7491999985941,
+        "total_skipped_ticks": 53
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 0.5459625002113171,
+        "p99_ms_ci95": [
+          0.4570735449824497,
+          0.6357376885233862
+        ],
+        "p99_ms_max": 0.7815100029984022,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.176,
+        "ontime_ci95": [
+          0.14,
+          0.21200000000000002
+        ],
+        "p99_ms_mean": 0.24073999920801725,
+        "p99_ms_ci95": [
+          0.23393999944346433,
+          0.2481099993110547
+        ],
+        "p99_ms_max": 0.26250000155414455,
+        "total_skipped_ticks": 0
+      },
+      "CLWB_Dual": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 1.6598360007119481,
+        "p99_ms_ci95": [
+          1.1357686124395514,
+          2.2108078734604533
+        ],
+        "p99_ms_max": 3.0317670021395315,
+        "total_skipped_ticks": 0
+      }
+    },
+    "40": {
+      "SFA+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 144.0844200002175,
+        "p99_ms_ci95": [
+          133.18760199957978,
+          154.90167400024802
+        ],
+        "p99_ms_max": 173.72610000165878,
+        "total_skipped_ticks": 24
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 1881.9712999993499,
+        "p99_ms_ci95": [
+          1637.4308524994467,
+          2135.8065979987077
+        ],
+        "p99_ms_max": 2556.768299997202,
+        "total_skipped_ticks": 370
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 1.3928692999179475,
+        "p99_ms_ci95": [
+          1.2972194470727119,
+          1.5013812859247082
+        ],
+        "p99_ms_max": 1.7075160000968022,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.1375,
+        "ontime_ci95": [
+          0.11000000000000001,
+          0.16749999999999998
+        ],
+        "p99_ms_mean": 0.3782999992836267,
+        "p99_ms_ci95": [
+          0.367859998732456,
+          0.3922009996131237
+        ],
+        "p99_ms_max": 0.43229999937466346,
+        "total_skipped_ticks": 0
+      },
+      "CLWB_Dual": {
+        "ontime_mean": 1.0,
+        "ontime_ci95": [
+          1.0,
+          1.0
+        ],
+        "p99_ms_mean": 3.4845656007419166,
+        "p99_ms_ci95": [
+          3.1128863179694237,
+          3.8539336029718467
+        ],
+        "p99_ms_max": 4.6349700018254225,
+        "total_skipped_ticks": 0
+      }
+    },
+    "60": {
+      "SFA+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 498.8190100004431,
+        "p99_ms_ci95": [
+          462.45504999969853,
+          536.1704647521219
+        ],
+        "p99_ms_max": 580.7699000033608,
+        "total_skipped_ticks": 96
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 5502.13504000094,
+        "p99_ms_ci95": [
+          5083.797827251574,
+          5913.885710000977
+        ],
+        "p99_ms_max": 6803.903600000922,
+        "total_skipped_ticks": 1096
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 0.9983333333333334,
+        "ontime_ci95": [
+          0.9949999999999999,
+          1.0
+        ],
+        "p99_ms_mean": 2.478848199792992,
+        "p99_ms_ci95": [
+          2.2354748324381033,
+          2.744501279591076
+        ],
+        "p99_ms_max": 3.1784279996645624,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.11499999999999999,
+        "ontime_ci95": [
+          0.09333333333333334,
+          0.13833333333333334
+        ],
+        "p99_ms_mean": 0.5579499993473291,
+        "p99_ms_ci95": [
+          0.5369097491984576,
+          0.5848824988697743
+        ],
+        "p99_ms_max": 0.6554999999934807,
+        "total_skipped_ticks": 0
+      },
+      "CLWB_Dual": {
+        "ontime_mean": 0.9983333333333334,
+        "ontime_ci95": [
+          0.9949999999999999,
+          1.0
+        ],
+        "p99_ms_mean": 6.196397300376702,
+        "p99_ms_ci95": [
+          5.503765505988395,
+          7.100502662537019
+        ],
+        "p99_ms_max": 9.655258997991039,
+        "total_skipped_ticks": 0
+      }
+    },
+    "80": {
+      "SFA+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 1232.7396299995598,
+        "p99_ms_ci95": [
+          1059.666938748851,
+          1401.6762992500026
+        ],
+        "p99_ms_max": 1648.670200000197,
+        "total_skipped_ticks": 242
+      },
+      "IBR_5+CG": {
+        "ontime_mean": 0.0,
+        "ontime_ci95": [
+          0.0,
+          0.0
+        ],
+        "p99_ms_mean": 13506.453089999923,
+        "p99_ms_ci95": [
+          12201.743980249312,
+          14769.634079501011
+        ],
+        "p99_ms_max": 16284.413600002154,
+        "total_skipped_ticks": 2696
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean": 0.99875,
+        "ontime_ci95": [
+          0.9962500000000001,
+          1.0
+        ],
+        "p99_ms_mean": 3.710372800269397,
+        "p99_ms_ci95": [
+          2.983768715133373,
+          4.408046140656279
+        ],
+        "p99_ms_max": 5.828650001785719,
+        "total_skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "ontime_mean": 0.08875,
+        "ontime_ci95": [
+          0.06999999999999999,
+          0.11125
+        ],
+        "p99_ms_mean": 0.7489399999030866,
+        "p99_ms_ci95": [
+          0.7074100001682382,
+          0.8135905003291555
+        ],
+        "p99_ms_max": 1.0156000025745016,
+        "total_skipped_ticks": 0
+      },
+      "CLWB_Dual": {
+        "ontime_mean": 0.99375,
+        "ontime_ci95": [
+          0.9900000000000002,
+          0.9974999999999999
+        ],
+        "p99_ms_mean": 7.661946399995941,
+        "p99_ms_ci95": [
+          7.244279119537441,
+          8.027542970576542
+        ],
+        "p99_ms_max": 8.425224000675371,
+        "total_skipped_ticks": 0
+      }
+    }
+  },
+  "exp_1d_counterexamples": {
+    "L1_PreBatch": {
+      "Exact_Oracle": {
+        "n_ontime": 3,
+        "n_tasks": 4,
+        "ontime_rate": 0.75
+      },
+      "CLWB_Dual": {
+        "n_ontime": 2,
+        "n_tasks": 4,
+        "ontime_rate": 0.5
+      },
+      "EDF_PreBatch+CG": {
+        "n_ontime": 0,
+        "n_tasks": 4,
+        "ontime_rate": 0.0
+      },
+      "LLF_PreBatch+CG": {
+        "n_ontime": 0,
+        "n_tasks": 4,
+        "ontime_rate": 0.0
+      },
+      "Bambos_ALP+CG": {
+        "n_ontime": 0,
+        "n_tasks": 4,
+        "ontime_rate": 0.0
+      },
+      "Chen_Game+CG": {
+        "n_ontime": 2,
+        "n_tasks": 4,
+        "ontime_rate": 0.5
+      },
+      "DGOLB+CG": {
+        "n_ontime": 0,
+        "n_tasks": 4,
+        "ontime_rate": 0.0
+      },
+      "SFA+CG": {
+        "n_ontime": 2,
+        "n_tasks": 4,
+        "ontime_rate": 0.5
+      },
+      "IBR_5+CG": {
+        "n_ontime": 2,
+        "n_tasks": 4,
+        "ontime_rate": 0.5
+      }
+    },
+    "L2_NonDelay": {
+      "Exact_Oracle": {
+        "n_ontime": 3,
+        "n_tasks": 3,
+        "ontime_rate": 1.0
+      },
+      "CLWB_Dual": {
+        "n_ontime": 3,
+        "n_tasks": 3,
+        "ontime_rate": 1.0
+      },
+      "EDF_PreBatch+CG": {
+        "n_ontime": 1,
+        "n_tasks": 3,
+        "ontime_rate": 0.3333333333333333
+      },
+      "LLF_PreBatch+CG": {
+        "n_ontime": 1,
+        "n_tasks": 3,
+        "ontime_rate": 0.3333333333333333
+      },
+      "Bambos_ALP+CG": {
+        "n_ontime": 2,
+        "n_tasks": 3,
+        "ontime_rate": 0.6666666666666666
+      },
+      "Chen_Game+CG": {
+        "n_ontime": 3,
+        "n_tasks": 3,
+        "ontime_rate": 1.0
+      },
+      "DGOLB+CG": {
+        "n_ontime": 1,
+        "n_tasks": 3,
+        "ontime_rate": 0.3333333333333333
+      },
+      "SFA+CG": {
+        "n_ontime": 3,
+        "n_tasks": 3,
+        "ontime_rate": 1.0
+      },
+      "IBR_5+CG": {
+        "n_ontime": 3,
+        "n_tasks": 3,
+        "ontime_rate": 1.0
+      }
+    },
+    "L3_MyopicEDF": {
+      "Exact_Oracle": {
+        "n_ontime": 3,
+        "n_tasks": 4,
+        "ontime_rate": 0.75
+      },
+      "CLWB_Dual": {
+        "n_ontime": 3,
+        "n_tasks": 4,
+        "ontime_rate": 0.75
+      },
+      "EDF_PreBatch+CG": {
+        "n_ontime": 0,
+        "n_tasks": 4,
+        "ontime_rate": 0.0
+      },
+      "LLF_PreBatch+CG": {
+        "n_ontime": 0,
+        "n_tasks": 4,
+        "ontime_rate": 0.0
+      },
+      "Bambos_ALP+CG": {
+        "n_ontime": 2,
+        "n_tasks": 4,
+        "ontime_rate": 0.5
+      },
+      "Chen_Game+CG": {
+        "n_ontime": 1,
+        "n_tasks": 4,
+        "ontime_rate": 0.25
+      },
+      "DGOLB+CG": {
+        "n_ontime": 0,
+        "n_tasks": 4,
+        "ontime_rate": 0.0
+      },
+      "SFA+CG": {
+        "n_ontime": 1,
+        "n_tasks": 4,
+        "ontime_rate": 0.25
+      },
+      "IBR_5+CG": {
+        "n_ontime": 1,
+        "n_tasks": 4,
+        "ontime_rate": 0.25
+      }
+    },
+    "CE_2ndOrder": {
+      "Exact_Oracle": {
+        "n_ontime": 4,
+        "n_tasks": 5,
+        "ontime_rate": 0.8
+      },
+      "CLWB_Dual": {
+        "n_ontime": 4,
+        "n_tasks": 5,
+        "ontime_rate": 0.8
+      },
+      "EDF_PreBatch+CG": {
+        "n_ontime": 1,
+        "n_tasks": 5,
+        "ontime_rate": 0.2
+      },
+      "LLF_PreBatch+CG": {
+        "n_ontime": 1,
+        "n_tasks": 5,
+        "ontime_rate": 0.2
+      },
+      "Bambos_ALP+CG": {
+        "n_ontime": 3,
+        "n_tasks": 5,
+        "ontime_rate": 0.6
+      },
+      "Chen_Game+CG": {
+        "n_ontime": 2,
+        "n_tasks": 5,
+        "ontime_rate": 0.4
+      },
+      "DGOLB+CG": {
+        "n_ontime": 1,
+        "n_tasks": 5,
+        "ontime_rate": 0.2
+      },
+      "SFA+CG": {
+        "n_ontime": 2,
+        "n_tasks": 5,
+        "ontime_rate": 0.4
+      },
+      "IBR_5+CG": {
+        "n_ontime": 2,
+        "n_tasks": 5,
+        "ontime_rate": 0.4
+      }
+    }
+  }
+}

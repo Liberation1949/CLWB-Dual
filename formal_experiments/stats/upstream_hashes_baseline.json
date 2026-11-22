@@ -1,0 +1,27 @@
+{
+  "stage2_model": {
+    "baselines_stage2.py": "c7cb5ffa5783344ed04b852b11c2f35a1d86c09a0bbe1fd9013ad6e024c69f11",
+    "exact_oracle.py": "8c7502fccb4a63f24adcc55033ed82e6af142d6bcdc51ef1cbd60a3ce9a04751",
+    "hardware_mapping_table.md": "e6315e6f55b0b008e12887f6a6d207ce7ccdeac36b4dbab42a98dc7283c97c4a",
+    "model_spec.py": "e40c82d38481950e870c4352698556e61f370e3effc5918020f3453c2dea9299",
+    "MODEL_v1.0_SPEC.md": "974dc2d9298e309d770d762011132299ff56530d1feafe3c8d38e9b66addc3e0",
+    "phase_space_2d.png": "0dae6d53757dbae528fd0dffcc018c6d60582eea40031eefbd1815ca8326cd33",
+    "stage2_verification_report.json": "96884f0023ccac67bc10d12b11ef5b69e41658770d434d92d2281d629c079415",
+    "verify_stage2_gates.py": "798c8564422e23f7d5dfe986c4fa8e16eeccde91ad76b6b6feb7faea3f1f0174"
+  },
+  "stage3_algorithm": {
+    "champion_core.py": "0cb399482c149bf677ebc1a16effd311644bad691a56ae913e433be2332a8342",
+    "common_guard.py": "d615b79fde6abec88a680dedd412eff34741d60405c0693d8a509b2d63d86b41",
+    "benchmark_suite_s3.py": "9ef559abea0fdc70d3e93f40548cd8272d7ef9acc8a893c7d095b999dab00e5c",
+    "candidates_routes.py": "c596d742ea67749c954f64a97338ebc251117d91d717206e57a5bf2664e3a493",
+    "soundness_test.py": "6cb1a57b8d05f8deda630f286c40995d802ff301a6de4a1f1bc19b1811f8f4a7",
+    "guard_stage3.py": "f5b91c0c49675da1ddb6d7dcd85b30871a5477647735d570b4c303b6ba86eb7d"
+  },
+  "stage4_audit": {
+    "step41_blind_and_hardware.py": "8c0d6e2f0d63a6139c5740a016502a6c6f416f8eaec4f35d3b2d355b22fb1147",
+    "step42_anti_patchwork_and_grafting.py": "a91897273c38a333b8ed12b906ce76b1a5336666ee64004a843de6699becc540",
+    "step43_phase_transition_scan.py": "0827df176e2bade01dc491f7849ed79ade7ef1156468f0020d49b69a1dd10356",
+    "step44_fuzz_theorems.py": "ea4fcf2f2799cff087a4800510e2d23e2bfa78ced53d57541f65a7ffe6d64dcd",
+    "step45_regime_map_and_verdict.py": "46ea661e38983f0c9424af57c38612e3e96fe06a23defb3c7b6738ec59134eb8"
+  }
+}

@@ -1,0 +1,1200 @@
+{
+  "batch": 2,
+  "elapsed_s": 760.195109100001,
+  "total_episode_rows": 1920,
+  "total_workloads": 24,
+  "micro_100_oracle": {
+    "oracle_mean": 1.0,
+    "capture_ratio": 0.9875,
+    "inversions": 0,
+    "champ_illegal_actions": 0,
+    "methods": {
+      "CLWB_Dual": {
+        "mean_ontime": 0.9875,
+        "capture_ratio": 0.9875,
+        "ci95": [
+          0.975,
+          0.9975
+        ]
+      },
+      "EDF_PreBatch+CG": {
+        "mean_ontime": 0.3543333333333334,
+        "capture_ratio": 0.3543333333333334,
+        "ci95": [
+          0.2975,
+          0.4128333333333334
+        ]
+      },
+      "LLF_PreBatch+CG": {
+        "mean_ontime": 0.3543333333333334,
+        "capture_ratio": 0.3543333333333334,
+        "ci95": [
+          0.2975,
+          0.4128333333333334
+        ]
+      },
+      "Bambos_ALP+CG": {
+        "mean_ontime": 0.7539999999999999,
+        "capture_ratio": 0.7539999999999999,
+        "ci95": [
+          0.7170000000000001,
+          0.7893333333333333
+        ]
+      },
+      "Chen_Game+CG": {
+        "mean_ontime": 0.8965,
+        "capture_ratio": 0.8965,
+        "ci95": [
+          0.8666666666666666,
+          0.925
+        ]
+      },
+      "DGOLB+CG": {
+        "mean_ontime": 0.33899999999999997,
+        "capture_ratio": 0.33899999999999997,
+        "ci95": [
+          0.2828291666666667,
+          0.3973333333333333
+        ]
+      },
+      "SFA+CG": {
+        "mean_ontime": 0.992,
+        "capture_ratio": 0.992,
+        "ci95": [
+          0.9840000000000001,
+          0.998
+        ]
+      },
+      "IBR_5+CG": {
+        "mean_ontime": 0.992,
+        "capture_ratio": 0.992,
+        "ci95": [
+          0.9840000000000001,
+          0.998
+        ]
+      }
+    }
+  },
+  "scopes": {
+    "Main_K12": {
+      "scope": "Main_K12",
+      "k_workloads": 12,
+      "per_method": {
+        "CLWB_Dual": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.9793775553150553,
+          "ontime_ci95": [
+            0.9705422171867484,
+            0.9874985645141895
+          ],
+          "worst_wk_ontime": 0.9466666666666667,
+          "ep_p05_ontime": 0.9235243055555556,
+          "miss_mean": 0.003990228304681574,
+          "wasted_mean": 0.003568315017906645,
+          "p50_ms_mean": 3.3947104167812845,
+          "ep_p95_decision_ms": 11.200318552222598,
+          "max_p99_decision_ms": 14.576560000568861,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 6.568367943475006,
+          "energy_cmp_mean": 1679.6247074641778
+        },
+        "EDF_PreBatch+CG": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.3440679338023089,
+          "ontime_ci95": [
+            0.31838089939574316,
+            0.36897812575156325
+          ],
+          "worst_wk_ontime": 0.25972222222222224,
+          "ep_p05_ontime": 0.25776909722222224,
+          "miss_mean": 0.8949107143660493,
+          "wasted_mean": 0.8261903414495856,
+          "p50_ms_mean": 0.4107316668068961,
+          "ep_p95_decision_ms": 1.398144299864725,
+          "max_p99_decision_ms": 1.6112179981428199,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 12.83071003815813,
+          "energy_cmp_mean": 368.3292667835074
+        },
+        "LLF_PreBatch+CG": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.34286610524891775,
+          "ontime_ci95": [
+            0.3171107926361833,
+            0.36801100053736774
+          ],
+          "worst_wk_ontime": 0.25902777777777775,
+          "ep_p05_ontime": 0.25676388888888885,
+          "miss_mean": 0.8965602170253856,
+          "wasted_mean": 0.8290802294658949,
+          "p50_ms_mean": 0.5848662498616856,
+          "ep_p95_decision_ms": 1.9098539496681035,
+          "max_p99_decision_ms": 3.0180940004356667,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 12.821649039158052,
+          "energy_cmp_mean": 372.0117325934578
+        },
+        "Bambos_ALP+CG": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.898265625,
+          "ontime_ci95": [
+            0.8608413917824073,
+            0.9330155960648148
+          ],
+          "worst_wk_ontime": 0.7653333333333333,
+          "ep_p05_ontime": 0.7663333333333334,
+          "miss_mean": 0.00026411052009456265,
+          "wasted_mean": 0.00024308503304732842,
+          "p50_ms_mean": 0.7528341666481234,
+          "ep_p95_decision_ms": 7.093299549691437,
+          "max_p99_decision_ms": 9.544017002008331,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 3.857129626360667,
+          "energy_cmp_mean": 2316.807724247045
+        },
+        "Chen_Game+CG": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.7092741326960077,
+          "ontime_ci95": [
+            0.6698103824705386,
+            0.7475223635161135
+          ],
+          "worst_wk_ontime": 0.5854166666666667,
+          "ep_p05_ontime": 0.5274305555555556,
+          "miss_mean": 0.21794575397014596,
+          "wasted_mean": 0.1840919605015167,
+          "p50_ms_mean": 2.1497841667648268,
+          "ep_p95_decision_ms": 9.744729699441445,
+          "max_p99_decision_ms": 12.515543998742944,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 5.964524528014341,
+          "energy_cmp_mean": 2129.695569177782
+        },
+        "DGOLB+CG": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.22897886979918228,
+          "ontime_ci95": [
+            0.20368707536676287,
+            0.2556801163607804
+          ],
+          "worst_wk_ontime": 0.17083333333333334,
+          "ep_p05_ontime": 0.13994444444444445,
+          "miss_mean": 0.916032907731585,
+          "wasted_mean": 0.8585209401749004,
+          "p50_ms_mean": 0.4975033330538281,
+          "ep_p95_decision_ms": 2.376560999822687,
+          "max_p99_decision_ms": 3.7354929998764415,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 15.247541932945504,
+          "energy_cmp_mean": 776.3246938491085
+        },
+        "SFA+CG": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.1661324818121693,
+          "ontime_ci95": [
+            0.11550908564814814,
+            0.21521518890542324
+          ],
+          "worst_wk_ontime": 0.0,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.8482747953569812,
+          "wasted_mean": 0.6546630435552964,
+          "p50_ms_mean": 58.225156249773136,
+          "ep_p95_decision_ms": 2226.1824570015656,
+          "max_p99_decision_ms": 5750.10074800266,
+          "total_skipped_ticks": 2352,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 4.543378516546651,
+          "energy_cmp_mean": 1411.1301402302772
+        },
+        "IBR_5+CG": {
+          "n_workloads": 12,
+          "n_episodes": 120,
+          "ontime_mean": 0.05069051752645503,
+          "ontime_ci95": [
+            0.026346643518518516,
+            0.07728622065145503
+          ],
+          "worst_wk_ontime": 0.0,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.9541377814547279,
+          "wasted_mean": 0.8273431510296424,
+          "p50_ms_mean": 297.8430274997966,
+          "ep_p95_decision_ms": 5297.882779600819,
+          "max_p99_decision_ms": 9857.091646001136,
+          "total_skipped_ticks": 4728,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 1.8397029526706496,
+          "energy_cmp_mean": 279.2172856264496
+        }
+      },
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.3440679338023089,
+          "delta_pp": 63.53096215127466,
+          "delta_pp_ci95": [
+            61.69471716795934,
+            65.39622239883957
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.34286610524891775,
+          "delta_pp": 63.65114500661375,
+          "delta_pp_ci95": [
+            61.857334036044975,
+            65.53792937748015
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.898265625,
+          "delta_pp": 8.11119303150553,
+          "delta_pp_ci95": [
+            5.391837271524763,
+            11.006411097582976
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 0.8333333333333334
+        },
+        "Chen_Game+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.7092741326960077,
+          "delta_pp": 27.010342261904764,
+          "delta_pp_ci95": [
+            23.782947668650785,
+            30.390400958994707
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "DGOLB+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.22897886979918228,
+          "delta_pp": 75.03986855158729,
+          "delta_pp_ci95": [
+            72.76936900628306,
+            77.1405753968254
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "SFA+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.1661324818121693,
+          "delta_pp": 81.3245073502886,
+          "delta_pp_ci95": [
+            76.43724980459355,
+            86.35525245009619
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        },
+        "IBR_5+CG": {
+          "n_stat": 12,
+          "champ_mean_ontime": 0.9793775553150553,
+          "base_mean_ontime": 0.05069051752645503,
+          "delta_pp": 92.86870377886004,
+          "delta_pp_ci95": [
+            90.14044786593614,
+            95.43746617965367
+          ],
+          "wins": 12,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.00048828125,
+          "holm_p": 0.00341796875,
+          "cliffs_delta": 1.0
+        }
+      }
+    },
+    "OOD_K4": {
+      "scope": "OOD_K4",
+      "k_workloads": 4,
+      "per_method": {
+        "CLWB_Dual": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.9716861129067011,
+          "ontime_ci95": [
+            0.9583484162895928,
+            0.9850238095238095
+          ],
+          "worst_wk_ontime": 0.9582352941176471,
+          "ep_p05_ontime": 0.9171218487394958,
+          "miss_mean": 0.00614230762750477,
+          "wasted_mean": 0.004799400748548311,
+          "p50_ms_mean": 3.6955162499452854,
+          "ep_p95_decision_ms": 10.850055801025517,
+          "max_p99_decision_ms": 11.813236001180485,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 6.68385847294278,
+          "energy_cmp_mean": 2569.9175621598756
+        },
+        "EDF_PreBatch+CG": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.33290546218487393,
+          "ontime_ci95": [
+            0.3108823529411765,
+            0.3569411764705882
+          ],
+          "worst_wk_ontime": 0.31,
+          "ep_p05_ontime": 0.2614027149321267,
+          "miss_mean": 0.9324412451712054,
+          "wasted_mean": 0.8599016175519298,
+          "p50_ms_mean": 0.3700400002344395,
+          "ep_p95_decision_ms": 1.4721035516558902,
+          "max_p99_decision_ms": 1.7755720001150623,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 15.763259948032282,
+          "energy_cmp_mean": 421.89304065121183
+        },
+        "LLF_PreBatch+CG": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.3325464878258996,
+          "ontime_ci95": [
+            0.31049773755656107,
+            0.35644117647058826
+          ],
+          "worst_wk_ontime": 0.30923076923076925,
+          "ep_p05_ontime": 0.2614027149321267,
+          "miss_mean": 0.9330106441798568,
+          "wasted_mean": 0.8610644246092088,
+          "p50_ms_mean": 0.5143325000517507,
+          "ep_p95_decision_ms": 1.8929688007519863,
+          "max_p99_decision_ms": 2.1454160010034684,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 15.766477648676489,
+          "energy_cmp_mean": 422.6079471546892
+        },
+        "Bambos_ALP+CG": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.8657474682180564,
+          "ontime_ci95": [
+            0.8037330316742082,
+            0.9277619047619048
+          ],
+          "worst_wk_ontime": 0.798235294117647,
+          "ep_p05_ontime": 0.7466289592760181,
+          "miss_mean": 0.0007996096165739022,
+          "wasted_mean": 0.0008461585275108888,
+          "p50_ms_mean": 0.7346387498728291,
+          "ep_p95_decision_ms": 4.509665350027717,
+          "max_p99_decision_ms": 4.978565998862905,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 3.976047696229136,
+          "energy_cmp_mean": 2677.223051359111
+        },
+        "Chen_Game+CG": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.7096879982762336,
+          "ontime_ci95": [
+            0.6705042016806722,
+            0.7649285714285715
+          ],
+          "worst_wk_ontime": 0.6652941176470588,
+          "ep_p05_ontime": 0.585546218487395,
+          "miss_mean": 0.18761903071897912,
+          "wasted_mean": 0.16091551331492507,
+          "p50_ms_mean": 1.8280312499427964,
+          "ep_p95_decision_ms": 9.26154220096214,
+          "max_p99_decision_ms": 10.42486400125199,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 5.996465383585253,
+          "energy_cmp_mean": 2306.916934204304
+        },
+        "DGOLB+CG": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.20636123680241328,
+          "ontime_ci95": [
+            0.175,
+            0.23115384615384615
+          ],
+          "worst_wk_ontime": 0.15666666666666668,
+          "ep_p05_ontime": 0.13266666666666665,
+          "miss_mean": 0.9476197473705513,
+          "wasted_mean": 0.887716829015937,
+          "p50_ms_mean": 0.39514375034741533,
+          "ep_p95_decision_ms": 2.232240951174389,
+          "max_p99_decision_ms": 2.4345429997629253,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 18.93563668644293,
+          "energy_cmp_mean": 822.9928584596641
+        },
+        "SFA+CG": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.20770130359836242,
+          "ontime_ci95": [
+            0.09707843137254901,
+            0.3183241758241758
+          ],
+          "worst_wk_ontime": 0.05533333333333333,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.8164395283211245,
+          "wasted_mean": 0.6859238360059047,
+          "p50_ms_mean": 50.575436249982886,
+          "ep_p95_decision_ms": 1825.585577901376,
+          "max_p99_decision_ms": 2332.612207000347,
+          "total_skipped_ticks": 552,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 5.157175974189468,
+          "energy_cmp_mean": 1647.2941545890994
+        },
+        "IBR_5+CG": {
+          "n_workloads": 4,
+          "n_episodes": 40,
+          "ontime_mean": 0.08506868131868131,
+          "ontime_ci95": [
+            0.02,
+            0.15013736263736263
+          ],
+          "worst_wk_ontime": 0.0,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.9270464142607915,
+          "wasted_mean": 0.791041026100344,
+          "p50_ms_mean": 208.63237875018967,
+          "ep_p95_decision_ms": 1949.0152312491405,
+          "max_p99_decision_ms": 3435.5335220014967,
+          "total_skipped_ticks": 910,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 2.9568080675658255,
+          "energy_cmp_mean": 1053.903448081524
+        }
+      },
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.33290546218487393,
+          "delta_pp": 63.878065072182714,
+          "delta_pp_ci95": [
+            62.461764705882345,
+            64.74660633484163
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.3325464878258996,
+          "delta_pp": 63.913962508080154,
+          "delta_pp_ci95": [
+            62.51176470588234,
+            64.78506787330318
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.8657474682180564,
+          "delta_pp": 10.59386446886447,
+          "delta_pp_ci95": [
+            5.07005494505494,
+            15.461538461538465
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 0.75
+        },
+        "Chen_Game+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.7096879982762336,
+          "delta_pp": 26.199811463046757,
+          "delta_pp_ci95": [
+            21.923529411764697,
+            29.897058823529413
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "DGOLB+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.20636123680241328,
+          "delta_pp": 76.53248761042877,
+          "delta_pp_ci95": [
+            73.25565610859728,
+            81.21785714285714
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "SFA+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.20770130359836242,
+          "delta_pp": 76.39848093083387,
+          "delta_pp_ci95": [
+            65.12637362637362,
+            87.72857142857141
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        },
+        "IBR_5+CG": {
+          "n_stat": 4,
+          "champ_mean_ontime": 0.9716861129067011,
+          "base_mean_ontime": 0.08506868131868131,
+          "delta_pp": 88.66174315880198,
+          "delta_pp_ci95": [
+            81.94505494505495,
+            95.37843137254902
+          ],
+          "wins": 4,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.125,
+          "holm_p": 0.875,
+          "cliffs_delta": 1.0
+        }
+      }
+    },
+    "Blind_K8": {
+      "scope": "Blind_K8",
+      "k_workloads": 8,
+      "per_method": {
+        "CLWB_Dual": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.951751488095238,
+          "ontime_ci95": [
+            0.9007842261904762,
+            0.9902132936507937
+          ],
+          "worst_wk_ontime": 0.8012499999999999,
+          "ep_p05_ontime": 0.7809375,
+          "miss_mean": 0.0029202293259315898,
+          "wasted_mean": 0.0026706083699330517,
+          "p50_ms_mean": 2.715421249922656,
+          "ep_p95_decision_ms": 11.2385827997241,
+          "max_p99_decision_ms": 12.268400000175461,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 4.278895543001724,
+          "energy_cmp_mean": 4527.633880024513
+        },
+        "EDF_PreBatch+CG": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.4277991071428571,
+          "ontime_ci95": [
+            0.2915560515873016,
+            0.61065625
+          ],
+          "worst_wk_ontime": 0.2671428571428571,
+          "ep_p05_ontime": 0.23549107142857142,
+          "miss_mean": 0.7670096748010953,
+          "wasted_mean": 0.7063647464783541,
+          "p50_ms_mean": 0.3587750001315726,
+          "ep_p95_decision_ms": 1.3693630993693657,
+          "max_p99_decision_ms": 1.7300360000808717,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 10.063204195258127,
+          "energy_cmp_mean": 432.6183179264973
+        },
+        "LLF_PreBatch+CG": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.4279404761904762,
+          "ontime_ci95": [
+            0.29178249007936513,
+            0.6103958333333334
+          ],
+          "worst_wk_ontime": 0.26785714285714285,
+          "ep_p05_ontime": 0.2357142857142857,
+          "miss_mean": 0.7668420401832428,
+          "wasted_mean": 0.7054446851281968,
+          "p50_ms_mean": 0.5245106249503806,
+          "ep_p95_decision_ms": 1.9343771502499292,
+          "max_p99_decision_ms": 2.1862640025210567,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 10.031388367797005,
+          "energy_cmp_mean": 443.55287416248643
+        },
+        "Bambos_ALP+CG": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.8634608134920635,
+          "ontime_ci95": [
+            0.7669435515873015,
+            0.9484195188492064
+          ],
+          "worst_wk_ontime": 0.63125,
+          "ep_p05_ontime": 0.6329166666666667,
+          "miss_mean": 0.0011654816883287713,
+          "wasted_mean": 0.0008875154539811483,
+          "p50_ms_mean": 0.5193675000327858,
+          "ep_p95_decision_ms": 3.5282791996796705,
+          "max_p99_decision_ms": 4.242299999168607,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 3.6649219689619326,
+          "energy_cmp_mean": 2636.4031591459593
+        },
+        "Chen_Game+CG": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.7178707837301588,
+          "ontime_ci95": [
+            0.6105945002480159,
+            0.8326853298611111
+          ],
+          "worst_wk_ontime": 0.546875,
+          "ep_p05_ontime": 0.5125,
+          "miss_mean": 0.2064034161251483,
+          "wasted_mean": 0.172129705343753,
+          "p50_ms_mean": 1.4866093753198584,
+          "ep_p95_decision_ms": 8.741466750330801,
+          "max_p99_decision_ms": 11.222231000501777,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 5.0141377447977575,
+          "energy_cmp_mean": 1811.0459461704793
+        },
+        "DGOLB+CG": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.33478125000000003,
+          "ontime_ci95": [
+            0.20941666666666667,
+            0.5312986111111111
+          ],
+          "worst_wk_ontime": 0.19930555555555557,
+          "ep_p05_ontime": 0.1599861111111111,
+          "miss_mean": 0.788368407968471,
+          "wasted_mean": 0.7286444495695688,
+          "p50_ms_mean": 0.3822593749191583,
+          "ep_p95_decision_ms": 1.5845080003091423,
+          "max_p99_decision_ms": 2.244328001652321,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 10.820498338816066,
+          "energy_cmp_mean": 558.4634122611012
+        },
+        "SFA+CG": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.2933876488095238,
+          "ontime_ci95": [
+            0.15804337177579364,
+            0.5097048611111111
+          ],
+          "worst_wk_ontime": 0.06100000000000001,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.7022039052696177,
+          "wasted_mean": 0.5433870581818999,
+          "p50_ms_mean": 32.72823812496881,
+          "ep_p95_decision_ms": 862.5106660012674,
+          "max_p99_decision_ms": 2390.3332140015114,
+          "total_skipped_ticks": 884,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 3.2857813609226603,
+          "energy_cmp_mean": 2359.0770193873104
+        },
+        "IBR_5+CG": {
+          "n_workloads": 8,
+          "n_episodes": 80,
+          "ontime_mean": 0.15716269841269842,
+          "ontime_ci95": [
+            0.03770833333333333,
+            0.37050595238095235
+          ],
+          "worst_wk_ontime": 0.0,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.8412619745560892,
+          "wasted_mean": 0.7185452657342395,
+          "p50_ms_mean": 99.5590443752917,
+          "ep_p95_decision_ms": 7105.165087300327,
+          "max_p99_decision_ms": 19760.34293200115,
+          "total_skipped_ticks": 3489,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 1.9628975703400038,
+          "energy_cmp_mean": 1216.9344112854064
+        }
+      },
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.4277991071428571,
+          "delta_pp": 52.39523809523809,
+          "delta_pp_ci95": [
+            35.926475694444434,
+            64.56875
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.765625
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.4279404761904762,
+          "delta_pp": 52.38110119047619,
+          "delta_pp_ci95": [
+            35.747767857142854,
+            64.61845238095239
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.765625
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.8634608134920635,
+          "delta_pp": 8.82906746031746,
+          "delta_pp_ci95": [
+            3.760317460317457,
+            14.01507936507937
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.390625
+        },
+        "Chen_Game+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.7178707837301588,
+          "delta_pp": 23.388070436507938,
+          "delta_pp_ci95": [
+            14.415403645833324,
+            31.618009052579367
+          ],
+          "wins": 8,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.0078125,
+          "holm_p": 0.0546875,
+          "cliffs_delta": 0.78125
+        },
+        "DGOLB+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.33478125000000003,
+          "delta_pp": 61.697023809523806,
+          "delta_pp_ci95": [
+            42.418055555555554,
+            74.7030753968254
+          ],
+          "wins": 8,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.0078125,
+          "holm_p": 0.0546875,
+          "cliffs_delta": 0.875
+        },
+        "SFA+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.2933876488095238,
+          "delta_pp": 65.83638392857142,
+          "delta_pp_ci95": [
+            44.524057539682545,
+            81.05237599206349
+          ],
+          "wins": 7,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 0.015625,
+          "holm_p": 0.0625,
+          "cliffs_delta": 0.765625
+        },
+        "IBR_5+CG": {
+          "n_stat": 8,
+          "champ_mean_ontime": 0.951751488095238,
+          "base_mean_ontime": 0.15716269841269842,
+          "delta_pp": 79.45887896825397,
+          "delta_pp_ci95": [
+            58.42361731150794,
+            93.03470982142855
+          ],
+          "wins": 8,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 0.0078125,
+          "holm_p": 0.0546875,
+          "cliffs_delta": 0.96875
+        }
+      }
+    },
+    "All_24": {
+      "scope": "All_24",
+      "k_workloads": 24,
+      "per_method": {
+        "CLWB_Dual": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.9688869591737239,
+          "ontime_ci95": [
+            0.9501093525083645,
+            0.9829919103942082
+          ],
+          "worst_wk_ontime": 0.8012499999999999,
+          "ep_p05_ontime": 0.8598125,
+          "miss_mean": 0.003992241865568779,
+          "wasted_mean": 0.003474260423689058,
+          "p50_ms_mean": 3.2184150000224085,
+          "ep_p95_decision_ms": 11.2385827997241,
+          "max_p99_decision_ms": 14.576560000568861,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 5.824458898228541,
+          "energy_cmp_mean": 2777.343240766906
+        },
+        "EDF_PreBatch+CG": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.3701179129795858,
+          "ontime_ci95": [
+            0.32293807353670634,
+            0.43599469171428035
+          ],
+          "worst_wk_ontime": 0.25972222222222224,
+          "ep_p05_ontime": 0.2468933823529412,
+          "miss_mean": 0.8585321229785907,
+          "wasted_mean": 0.7918670224762326,
+          "p50_ms_mean": 0.38663083348637883,
+          "ep_p95_decision_ms": 1.4427812008871115,
+          "max_p99_decision_ms": 1.7755720001150623,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 12.396966408837153,
+          "energy_cmp_mean": 398.6862461424548
+        },
+        "LLF_PreBatch+CG": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.3695042926589342,
+          "ontime_ci95": [
+            0.32249018133261587,
+            0.4354694259661056
+          ],
+          "worst_wk_ontime": 0.25902777777777775,
+          "ep_p05_ontime": 0.2468933823529412,
+          "miss_mean": 0.859395895937083,
+          "wasted_mean": 0.793199080543881,
+          "p50_ms_mean": 0.5529920832562615,
+          "ep_p95_decision_ms": 1.9335032502367537,
+          "max_p99_decision_ms": 3.0180940004356667,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 12.382366916957443,
+          "energy_cmp_mean": 404.2914822100059
+        },
+        "Bambos_ALP+CG": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.8812443283670306,
+          "ontime_ci95": [
+            0.8424468613460342,
+            0.916715611930536
+          ],
+          "worst_wk_ontime": 0.63125,
+          "ep_p05_ontime": 0.6848660714285715,
+          "miss_mean": 0.0006538174255858554,
+          "wasted_mean": 0.0005584074224358618,
+          "p50_ms_mean": 0.6719793749804618,
+          "ep_p95_decision_ms": 4.592780301547461,
+          "max_p99_decision_ms": 9.544017002008331,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 3.8128800855391667,
+          "energy_cmp_mean": 2483.4087570653605
+        },
+        "Chen_Game+CG": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.712208660637429,
+          "ontime_ci95": [
+            0.6711489229214412,
+            0.7556268466704013
+          ],
+          "worst_wk_ontime": 0.546875,
+          "ep_p05_ontime": 0.514265873015873,
+          "miss_mean": 0.20904385414661894,
+          "wasted_mean": 0.17624180091783018,
+          "p50_ms_mean": 1.8751004168128322,
+          "ep_p95_decision_ms": 9.614067549486206,
+          "max_p99_decision_ms": 12.515543998742944,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 5.653052409537299,
+          "energy_cmp_mean": 2053.0159223464348
+        },
+        "DGOLB+CG": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.26047672436666003,
+          "ontime_ci95": [
+            0.21332274315651498,
+            0.33416003424956203
+          ],
+          "worst_wk_ontime": 0.15666666666666668,
+          "ep_p05_ontime": 0.14,
+          "miss_mean": 0.8787425477503747,
+          "wasted_mean": 0.8200947581132959,
+          "p50_ms_mean": 0.4420287498912027,
+          "ep_p95_decision_ms": 2.26545865227672,
+          "max_p99_decision_ms": 3.7354929998764415,
+          "total_skipped_ticks": 0,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 14.386543193818595,
+          "energy_cmp_mean": 711.4822940881986
+        },
+        "SFA+CG": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.215479007775653,
+          "ontime_ci95": [
+            0.15410077694338953,
+            0.3002012067463871
+          ],
+          "worst_wk_ontime": 0.0,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.7942786208218839,
+          "wasted_mean": 0.6227811805059323,
+          "p50_ms_mean": 48.45123020820665,
+          "ep_p95_decision_ms": 1942.0268327981755,
+          "max_p99_decision_ms": 5750.10074800266,
+          "total_skipped_ticks": 3788,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 4.22647904094579,
+          "energy_cmp_mean": 1766.4731023424256
+        },
+        "IBR_5+CG": {
+          "n_workloads": 24,
+          "n_episodes": 240,
+          "ontime_mean": 0.09191093845390719,
+          "ontime_ci95": [
+            0.043193730802617514,
+            0.16976775837371536
+          ],
+          "worst_wk_ontime": 0.0,
+          "ep_p05_ontime": 0.0,
+          "miss_mean": 0.911997284622859,
+          "wasted_mean": 0.7850268351096249,
+          "p50_ms_mean": 216.87992500002716,
+          "ep_p95_decision_ms": 5399.875599899809,
+          "max_p99_decision_ms": 19760.34293200115,
+          "total_skipped_ticks": 9127,
+          "total_illegal_actions": 0,
+          "energy_tx_mean": 2.066952011042963,
+          "energy_cmp_mean": 720.9040212552809
+        }
+      },
+      "pairwise_vs_cg": {
+        "EDF_PreBatch+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.3701179129795858,
+          "delta_pp": 59.87690461941381,
+          "delta_pp_ci95": [
+            53.50715167768132,
+            64.1803603404017
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.9201388888888888
+        },
+        "LLF_PreBatch+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.3695042926589342,
+          "delta_pp": 59.93826665147896,
+          "delta_pp_ci95": [
+            53.51033827092537,
+            64.31443828309234
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.9201388888888888
+        },
+        "Bambos_ALP+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.8812443283670306,
+          "delta_pp": 8.76426308066933,
+          "delta_pp_ci95": [
+            6.397226896367515,
+            11.166322040228287
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.6319444444444444
+        },
+        "Chen_Game+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.712208660637429,
+          "delta_pp": 25.667829853629485,
+          "delta_pp_ci95": [
+            22.092177135611184,
+            28.970811376633986
+          ],
+          "wins": 24,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 1.1920928955078125e-07,
+          "holm_p": 8.344650268554688e-07,
+          "cliffs_delta": 0.9340277777777778
+        },
+        "DGOLB+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.26047672436666003,
+          "delta_pp": 70.84102348070638,
+          "delta_pp_ci95": [
+            63.50783592169506,
+            75.63157129605315
+          ],
+          "wins": 24,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 1.1920928955078125e-07,
+          "holm_p": 8.344650268554688e-07,
+          "cliffs_delta": 0.9409722222222222
+        },
+        "SFA+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.215479007775653,
+          "delta_pp": 75.3407951398071,
+          "delta_pp_ci95": [
+            66.74698751118673,
+            81.76801040896399
+          ],
+          "wins": 23,
+          "ties": 1,
+          "losses": 0,
+          "raw_p": 2.7015948487105505e-05,
+          "holm_p": 0.00010806379394842202,
+          "cliffs_delta": 0.9201388888888888
+        },
+        "IBR_5+CG": {
+          "n_stat": 24,
+          "champ_mean_ontime": 0.9688869591737239,
+          "base_mean_ontime": 0.09191093845390719,
+          "delta_pp": 87.69760207198165,
+          "delta_pp_ci95": [
+            79.75483735123382,
+            92.88057999521924
+          ],
+          "wins": 24,
+          "ties": 0,
+          "losses": 0,
+          "raw_p": 1.8197386214786344e-05,
+          "holm_p": 9.098693107393173e-05,
+          "cliffs_delta": 0.9965277777777778
+        }
+      }
+    }
+  }
+}

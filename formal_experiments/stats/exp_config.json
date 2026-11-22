@@ -1,0 +1,54 @@
+{
+  "stage": 5,
+  "champion_factory": "make_clwb_dual(use_externality_pricing=True, use_lagrangian_defer=True, use_fluid_contraction=True)",
+  "paths": {
+    "root_v3": ".",
+    "stage2_dir": ".\\stage2_model",
+    "stage3_dir": ".\\stage3_algorithm",
+    "stage4_dir": ".\\stage4_audit",
+    "formal_dir": ".\\formal_experiments",
+    "azure_extract_dir": "./trace_data/trace_extract"
+  },
+  "default_sim_config": {
+    "tick_s": 0.05,
+    "delta_sig_s": 0.001,
+    "rho_sys": 0.95,
+    "f_min_hz": 1000000.0,
+    "latency_mode": "wall"
+  },
+  "seed_namespaces": {
+    "s50_calib_clwb": 50500,
+    "s50_calib_rank": 50000,
+    "s50_sanity_ortho": [
+      50101,
+      50102,
+      50103
+    ],
+    "s50_sanity_shared": [
+      50201,
+      50202,
+      50203
+    ],
+    "b1a_ortho_vs_shared": "51100..51109",
+    "b1b_kappa_sweep": "51200..51209",
+    "b1c_burst_cliff": "51300..51309",
+    "b2_main_k12": "41000+ (10 seeds/workload)",
+    "b2_ood_k4": "88000+ (10 seeds/workload)",
+    "b2_blind_k8": "99000+ (10 seeds/workload)",
+    "b2_micro100": 777,
+    "b3e_regime_map": "53500..53509",
+    "b4a_azure_trace": "54100..54163"
+  },
+  "azure_transparency_manifest": {
+    "REAL_from_Azure_2019_trace": [
+      "Per-minute invocation arrival density across fleet and bursty top-24 apps (counts matrix F x 60)",
+      "Per-function execution duration 7-quantile distribution knots (0, 0.01, 0.25, 0.50, 0.75, 0.99, 1.0), vmin, vmax",
+      "Published per-function empirical mean execution duration (avg_ms)"
+    ],
+    "SYNTHETIC_ScenarioV1_binding": [
+      "Uniform sub-minute arrival expansion linearly rescaled onto physical window [0, 1.25s)",
+      "Dimensionless cycle scaling C_r = clip(5.5e8 * dur_s / mean(dur_s), 5e7, 2.5e9) preserving relative duration ratios",
+      "Round-robin binding across 24 terminals, 6 MEC servers (50 GHz), 10 MHz shared wireless channel, radius 220m, T_max=0.85s"
+    ]
+  }
+}

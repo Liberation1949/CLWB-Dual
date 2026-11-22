@@ -1,0 +1,1060 @@
+{
+  "stage": 3,
+  "model_base": "Model v1.0",
+  "elapsed_s": 220.67672709999897,
+  "all_passed": true,
+  "gate1_soundness": {
+    "all_passed": true,
+    "elapsed_s": 2.276570999998512,
+    "stage2_freeze_intact": {
+      "passed": true,
+      "checked_files": 8,
+      "mismatches": []
+    },
+    "counterexamples": {
+      "passed": true,
+      "L1": {
+        "passed": true,
+        "champion": 2,
+        "oracle": 3,
+        "dgolb_cg": 0,
+        "edf_cg": 0
+      },
+      "L2": {
+        "passed": true,
+        "champion": 3,
+        "oracle": 3,
+        "oracle_nondelay": 2
+      },
+      "L3": {
+        "passed": true,
+        "champion": 3,
+        "oracle": 3,
+        "sfa_cg": 1
+      },
+      "CE_2ndOrder": {
+        "passed": true,
+        "champion": 4,
+        "oracle": 4,
+        "sfa_cg": 2,
+        "dgolb_cg": 1
+      }
+    },
+    "micro_100_oracle": {
+      "passed": true,
+      "oracle_mean": 1.0,
+      "champion_mean": 0.9875,
+      "capture_ratio": 0.9875,
+      "inversions": 0,
+      "illegal_actions": 0,
+      "hard_invariant_checks": 2996
+    },
+    "degenerate_anchors": {
+      "anchor1_single_srv_ortho": {
+        "admitted": 2,
+        "optimal": 2,
+        "match": true
+      },
+      "anchor2_inf_cpu_sinr": {
+        "admitted": 3,
+        "optimal": 3,
+        "match": true
+      },
+      "anchor3_inf_bw_pack": {
+        "admitted": 2,
+        "optimal": 2,
+        "match": true
+      },
+      "anchor4_single_task": {
+        "admitted": 1,
+        "optimal": 1,
+        "match": true
+      },
+      "passed": true
+    },
+    "burst_scaling": {
+      "passed": true,
+      "by_P": {
+        "10": {
+          "ontime_rate": 1.0,
+          "miss_rate": 0.0,
+          "decision_p99_ms": 0.9474000034970231,
+          "skipped_ticks": 0,
+          "hard_invariant_checks": 70
+        },
+        "25": {
+          "ontime_rate": 1.0,
+          "miss_rate": 0.0,
+          "decision_p99_ms": 1.2889999998151325,
+          "skipped_ticks": 0,
+          "hard_invariant_checks": 140
+        },
+        "45": {
+          "ontime_rate": 1.0,
+          "miss_rate": 0.0,
+          "decision_p99_ms": 9.333843003187212,
+          "skipped_ticks": 0,
+          "hard_invariant_checks": 376
+        },
+        "70": {
+          "ontime_rate": 0.9714285714285714,
+          "miss_rate": 0.0,
+          "decision_p99_ms": 17.67455999957747,
+          "skipped_ticks": 0,
+          "hard_invariant_checks": 659
+        },
+        "100": {
+          "ontime_rate": 0.99,
+          "miss_rate": 0.0,
+          "decision_p99_ms": 19.36510200244811,
+          "skipped_ticks": 0,
+          "hard_invariant_checks": 904
+        }
+      }
+    }
+  },
+  "gate2_ast_audit": {
+    "passed": true,
+    "bad_magic_numbers": [],
+    "bad_dataset_strings": [],
+    "max_function_branches": 11,
+    "overcomplex_functions": []
+  },
+  "gate3_main_k12": {
+    "passed": true,
+    "n_workloads_independent": 12,
+    "theoretical_min_holm_p": 0.00341796875,
+    "summary_across_k12": {
+      "CLWB_Dual": {
+        "mean_ontime": 0.9800983921556837,
+        "mean_miss": 0.0036070571928572062,
+        "mean_wasted": 0.003424466951691176,
+        "max_p99_ms": 21.156904000235954,
+        "skipped_ticks": 0
+      },
+      "EDF_PreBatch+CG": {
+        "mean_ontime": 0.3485950151314734,
+        "mean_miss": 0.8916767566699032,
+        "mean_wasted": 0.8231640040579963,
+        "max_p99_ms": 2.7717720007058233,
+        "skipped_ticks": 0
+      },
+      "LLF_PreBatch+CG": {
+        "mean_ontime": 0.3472002515231682,
+        "mean_miss": 0.8936720134065904,
+        "mean_wasted": 0.8260342043857216,
+        "max_p99_ms": 3.4828399990510657,
+        "skipped_ticks": 0
+      },
+      "Bambos_ALP+CG": {
+        "mean_ontime": 0.8907856466450216,
+        "mean_miss": 0.0,
+        "mean_wasted": 0.0,
+        "max_p99_ms": 12.213587999649459,
+        "skipped_ticks": 0
+      },
+      "Chen_Game+CG": {
+        "mean_ontime": 0.6671931116722782,
+        "mean_miss": 0.2636623624941863,
+        "mean_wasted": 0.23140536272796933,
+        "max_p99_ms": 17.494408999518782,
+        "skipped_ticks": 0
+      },
+      "DGOLB+CG": {
+        "mean_ontime": 0.23211825597242264,
+        "mean_miss": 0.9145149283160755,
+        "mean_wasted": 0.861200551290875,
+        "max_p99_ms": 5.50352599893813,
+        "skipped_ticks": 0
+      },
+      "SFA+CG": {
+        "mean_ontime": 0.11794560185185188,
+        "mean_miss": 0.8673975243193381,
+        "mean_wasted": 0.6707588696639366,
+        "max_p99_ms": 9187.07464000021,
+        "skipped_ticks": 996
+      },
+      "IBR_5+CG": {
+        "mean_ontime": 0.02111138668430335,
+        "mean_miss": 0.965450044521836,
+        "mean_wasted": 0.8365961464156458,
+        "max_p99_ms": 12282.422506000948,
+        "skipped_ticks": 2172
+      }
+    },
+    "wilcoxon_holm_vs_baselines": {
+      "EDF_PreBatch+CG": {
+        "champ_mean_ontime": 0.9800983921556837,
+        "base_mean_ontime": 0.3485950151314734,
+        "delta_pp": 63.150337702421034,
+        "wins_of_12": 12,
+        "ties_of_12": 0,
+        "raw_p": 0.000244140625,
+        "holm_p": 0.001708984375
+      },
+      "LLF_PreBatch+CG": {
+        "champ_mean_ontime": 0.9800983921556837,
+        "base_mean_ontime": 0.3472002515231682,
+        "delta_pp": 63.28981406325156,
+        "wins_of_12": 12,
+        "ties_of_12": 0,
+        "raw_p": 0.000244140625,
+        "holm_p": 0.001708984375
+      },
+      "Bambos_ALP+CG": {
+        "champ_mean_ontime": 0.9800983921556837,
+        "base_mean_ontime": 0.8907856466450216,
+        "delta_pp": 8.931274551066215,
+        "wins_of_12": 12,
+        "ties_of_12": 0,
+        "raw_p": 0.000244140625,
+        "holm_p": 0.001708984375
+      },
+      "Chen_Game+CG": {
+        "champ_mean_ontime": 0.9800983921556837,
+        "base_mean_ontime": 0.6671931116722782,
+        "delta_pp": 31.290528048340548,
+        "wins_of_12": 12,
+        "ties_of_12": 0,
+        "raw_p": 0.000244140625,
+        "holm_p": 0.001708984375
+      },
+      "DGOLB+CG": {
+        "champ_mean_ontime": 0.9800983921556837,
+        "base_mean_ontime": 0.23211825597242264,
+        "delta_pp": 74.79801361832611,
+        "wins_of_12": 12,
+        "ties_of_12": 0,
+        "raw_p": 0.000244140625,
+        "holm_p": 0.001708984375
+      },
+      "SFA+CG": {
+        "champ_mean_ontime": 0.9800983921556837,
+        "base_mean_ontime": 0.11794560185185188,
+        "delta_pp": 86.21527903038319,
+        "wins_of_12": 12,
+        "ties_of_12": 0,
+        "raw_p": 0.000244140625,
+        "holm_p": 0.001708984375
+      },
+      "IBR_5+CG": {
+        "champ_mean_ontime": 0.9800983921556837,
+        "base_mean_ontime": 0.02111138668430335,
+        "delta_pp": 95.89870054713803,
+        "wins_of_12": 12,
+        "ties_of_12": 0,
+        "raw_p": 0.000244140625,
+        "holm_p": 0.001708984375
+      }
+    },
+    "per_workload": {
+      "WK01_BALANCED_MED": {
+        "CLWB_Dual": {
+          "ontime_rate": 1.0,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 10.388283002066599,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.38425925925925924,
+          "miss_rate": 0.8260355370947271,
+          "wasted_ratio": 0.7494502681626364,
+          "max_p99_ms": 1.6172100000403589,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.38425925925925924,
+          "miss_rate": 0.8260355370947271,
+          "wasted_ratio": 0.7492543966821726,
+          "max_p99_ms": 2.750410000953707,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.9907407407407408,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 2.848174998689501,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.7986111111111112,
+          "miss_rate": 0.23402787688501972,
+          "wasted_ratio": 0.171895813785052,
+          "max_p99_ms": 10.30805000118562,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.3171296296296296,
+          "miss_rate": 0.8675969925969925,
+          "wasted_ratio": 0.8257320352712415,
+          "max_p99_ms": 1.6016289986146142,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.20833333333333334,
+          "miss_rate": 0.8386659212962729,
+          "wasted_ratio": 0.5768366860658097,
+          "max_p99_ms": 802.3948679980092,
+          "skipped_ticks": 51
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.020833333333333332,
+          "miss_rate": 1.0,
+          "wasted_ratio": 1.0,
+          "max_p99_ms": 8075.365187997959,
+          "skipped_ticks": 320
+        }
+      },
+      "WK02_DENSE_TIGHT": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.96,
+          "miss_rate": 0.00634920634920635,
+          "wasted_ratio": 0.006439752516949782,
+          "max_p99_ms": 9.792379998543767,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.2888888888888889,
+          "miss_rate": 0.9522560772560773,
+          "wasted_ratio": 0.9181817480906626,
+          "max_p99_ms": 1.6221099984613827,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.2866666666666667,
+          "miss_rate": 0.9565850815850817,
+          "wasted_ratio": 0.9223982708186539,
+          "max_p99_ms": 1.7978799987758975,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.7777777777777777,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 2.5903510015996285,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.6377777777777778,
+          "miss_rate": 0.15906438626173286,
+          "wasted_ratio": 0.14267065330533582,
+          "max_p99_ms": 9.323020000738326,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.18666666666666668,
+          "miss_rate": 0.969131701090464,
+          "wasted_ratio": 0.9223143624848644,
+          "max_p99_ms": 0.9834000011323952,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.1288888888888889,
+          "miss_rate": 0.826641375127316,
+          "wasted_ratio": 0.6660742510108851,
+          "max_p99_ms": 456.7673300007299,
+          "skipped_ticks": 34
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.04888888888888889,
+          "miss_rate": 0.8964113947465778,
+          "wasted_ratio": 0.7620350693871066,
+          "max_p99_ms": 1003.9832050017142,
+          "skipped_ticks": 48
+        }
+      },
+      "WK03_DEADLINE_TIGHT": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9328703703703703,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 11.026092000829522,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.24537037037037038,
+          "miss_rate": 0.9288799108386737,
+          "wasted_ratio": 0.8671338262471848,
+          "max_p99_ms": 1.9752499999594875,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.2407407407407407,
+          "miss_rate": 0.9354027567085986,
+          "wasted_ratio": 0.8808153380865211,
+          "max_p99_ms": 2.3264339999877848,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.7800925925925926,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 3.2632099996408215,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.5208333333333334,
+          "miss_rate": 0.38363693522806347,
+          "wasted_ratio": 0.34912770705293,
+          "max_p99_ms": 12.914758001134032,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.15972222222222224,
+          "miss_rate": 0.9493702722049179,
+          "wasted_ratio": 0.9044143955668834,
+          "max_p99_ms": 1.6494600001169601,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.13657407407407407,
+          "miss_rate": 0.8199114431991145,
+          "wasted_ratio": 0.3963668053394642,
+          "max_p99_ms": 920.0817650023965,
+          "skipped_ticks": 44
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.0,
+          "miss_rate": 1.0,
+          "wasted_ratio": 1.0,
+          "max_p99_ms": 3547.553799997695,
+          "skipped_ticks": 171
+        }
+      },
+      "WK04_HETERO_DEV": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9837962962962963,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 10.81625999941025,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.3148148148148148,
+          "miss_rate": 0.8941578016501563,
+          "wasted_ratio": 0.8380856904130992,
+          "max_p99_ms": 1.7027899997628997,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.3148148148148148,
+          "miss_rate": 0.8941578016501563,
+          "wasted_ratio": 0.8378790179932533,
+          "max_p99_ms": 2.3051879989361628,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.8958333333333334,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 2.677600002862164,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.6041666666666666,
+          "miss_rate": 0.34591779720963006,
+          "wasted_ratio": 0.2532091619949032,
+          "max_p99_ms": 12.198912000530983,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.23611111111111108,
+          "miss_rate": 0.9027236971484759,
+          "wasted_ratio": 0.8536791312807308,
+          "max_p99_ms": 1.8333550009629107,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.11805555555555557,
+          "miss_rate": 0.8772338772338771,
+          "wasted_ratio": 0.665090430019013,
+          "max_p99_ms": 499.2799159990682,
+          "skipped_ticks": 49
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.0,
+          "miss_rate": 1.0,
+          "wasted_ratio": 1.0,
+          "max_p99_ms": 2101.948720001674,
+          "skipped_ticks": 99
+        }
+      },
+      "WK05_HETERO_DL": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9976190476190476,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 14.043082001699075,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.3428571428571428,
+          "miss_rate": 0.9221993127147766,
+          "wasted_ratio": 0.8730716010220146,
+          "max_p99_ms": 1.5325000022130555,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.3428571428571428,
+          "miss_rate": 0.9221993127147766,
+          "wasted_ratio": 0.8729458479209381,
+          "max_p99_ms": 1.923975001591316,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.9476190476190477,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 4.974431999144145,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.7000000000000001,
+          "miss_rate": 0.18952020202020203,
+          "wasted_ratio": 0.19634798635740272,
+          "max_p99_ms": 10.390939999961118,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.26190476190476186,
+          "miss_rate": 0.9156397062057439,
+          "wasted_ratio": 0.8761041670889257,
+          "max_p99_ms": 2.008609001095465,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.19999999999999998,
+          "miss_rate": 0.7746420246420246,
+          "wasted_ratio": 0.45211015585481656,
+          "max_p99_ms": 587.4797420000324,
+          "skipped_ticks": 36
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.0642857142857143,
+          "miss_rate": 0.9766081871345028,
+          "wasted_ratio": 0.9437853542673086,
+          "max_p99_ms": 2148.7306520005222,
+          "skipped_ticks": 98
+        }
+      },
+      "WK06_BURST_MODERATE": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9958333333333332,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 16.746989999664944,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.3458333333333334,
+          "miss_rate": 0.9364381864381864,
+          "wasted_ratio": 0.8790013040334448,
+          "max_p99_ms": 1.8958830024348572,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.3458333333333334,
+          "miss_rate": 0.9364381864381864,
+          "wasted_ratio": 0.8786507267482507,
+          "max_p99_ms": 2.816528997609566,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.8708333333333332,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 7.6559400004771305,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.64375,
+          "miss_rate": 0.30108460380199514,
+          "wasted_ratio": 0.28440073968666907,
+          "max_p99_ms": 17.494408999518782,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.2125,
+          "miss_rate": 0.9426430376570014,
+          "wasted_ratio": 0.8783463194527702,
+          "max_p99_ms": 1.9488749980882853,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.035416666666666666,
+          "miss_rate": 0.8684210526315789,
+          "wasted_ratio": 0.7555460450601306,
+          "max_p99_ms": 2400.1935200006847,
+          "skipped_ticks": 112
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.0,
+          "miss_rate": 1.0,
+          "wasted_ratio": 1.0,
+          "max_p99_ms": 6980.3892399977485,
+          "skipped_ticks": 213
+        }
+      },
+      "WK07_BURST_HEAVY": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9878787878787878,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 18.084367999690585,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.3313131313131313,
+          "miss_rate": 0.9290229885057472,
+          "wasted_ratio": 0.8323004725509766,
+          "max_p99_ms": 2.392525998184281,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.3272727272727273,
+          "miss_rate": 0.9346743295019158,
+          "wasted_ratio": 0.8449454737186275,
+          "max_p99_ms": 3.4828399990510657,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.8343434343434343,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 5.872960000415333,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.6141414141414141,
+          "miss_rate": 0.26004993757802747,
+          "wasted_ratio": 0.2439749641705896,
+          "max_p99_ms": 16.235658002697164,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.16161616161616163,
+          "miss_rate": 0.9585373979676829,
+          "wasted_ratio": 0.8797871192222672,
+          "max_p99_ms": 3.8855799969314826,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.022222222222222223,
+          "miss_rate": 0.9780701754385964,
+          "wasted_ratio": 0.9216145157922382,
+          "max_p99_ms": 3268.3976199983595,
+          "skipped_ticks": 129
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.0,
+          "miss_rate": 1.0,
+          "wasted_ratio": 0.3333333333333333,
+          "max_p99_ms": 1990.1774999998452,
+          "skipped_ticks": 105
+        }
+      },
+      "WK08_HIGH_PAYLOAD": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9722222222222223,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 9.845367000452825,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.3833333333333333,
+          "miss_rate": 0.8975605993240962,
+          "wasted_ratio": 0.8086396120262274,
+          "max_p99_ms": 1.8851269995866458,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.3833333333333333,
+          "miss_rate": 0.8975605993240962,
+          "wasted_ratio": 0.8070152182537172,
+          "max_p99_ms": 2.6091299978361344,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.8916666666666666,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 2.6172200013388647,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.7305555555555556,
+          "miss_rate": 0.20446776611694154,
+          "wasted_ratio": 0.16209398721550083,
+          "max_p99_ms": 6.219354001077591,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.2638888888888889,
+          "miss_rate": 0.9181618819776715,
+          "wasted_ratio": 0.8467038272302431,
+          "max_p99_ms": 2.0231270001022494,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.17222222222222225,
+          "miss_rate": 0.8256578947368421,
+          "wasted_ratio": 0.3288419119806781,
+          "max_p99_ms": 724.8691620006135,
+          "skipped_ticks": 41
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.024999999999999998,
+          "miss_rate": 0.7857142857142857,
+          "wasted_ratio": 0.6666666666666666,
+          "max_p99_ms": 3019.317356001702,
+          "skipped_ticks": 142
+        }
+      },
+      "WK09_SMALL_CELL_ASYM": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9869791666666666,
+          "miss_rate": 0.003584229390681004,
+          "wasted_ratio": 0.004014862196217231,
+          "max_p99_ms": 10.284944000959513,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.3307291666666667,
+          "miss_rate": 0.8963455476753349,
+          "wasted_ratio": 0.8105174570527699,
+          "max_p99_ms": 1.4721000010467835,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.328125,
+          "miss_rate": 0.8995587297792653,
+          "wasted_ratio": 0.8159831037489115,
+          "max_p99_ms": 1.8461100018612342,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.8255208333333334,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 2.1682519980095094,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.6458333333333334,
+          "miss_rate": 0.21375212985382477,
+          "wasted_ratio": 0.18382735235772354,
+          "max_p99_ms": 11.95046099936007,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.21875,
+          "miss_rate": 0.9293848092565012,
+          "wasted_ratio": 0.8906594646357129,
+          "max_p99_ms": 2.885859998787055,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.21354166666666666,
+          "miss_rate": 0.8124858874219488,
+          "wasted_ratio": 0.7057721799889719,
+          "max_p99_ms": 450.1432900022338,
+          "skipped_ticks": 27
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.057291666666666664,
+          "miss_rate": 0.9266666666666667,
+          "wasted_ratio": 0.6666666666666666,
+          "max_p99_ms": 1015.8665990027655,
+          "skipped_ticks": 54
+        }
+      },
+      "WK10_DUAL_SUBBAND": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9925925925925926,
+          "miss_rate": 0.004866180048661801,
+          "wasted_ratio": 0.004878755281869324,
+          "max_p99_ms": 18.94544600101653,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.41111111111111115,
+          "miss_rate": 0.7740076227744487,
+          "wasted_ratio": 0.7050780634523818,
+          "max_p99_ms": 2.223319999757223,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.4055555555555556,
+          "miss_rate": 0.7813789844037179,
+          "wasted_ratio": 0.7131600324808637,
+          "max_p99_ms": 2.785095999133773,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.9777777777777779,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 3.392747999896528,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.6592592592592593,
+          "miss_rate": 0.3335068780370323,
+          "wasted_ratio": 0.3154641948874055,
+          "max_p99_ms": 14.848039999196772,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.28518518518518515,
+          "miss_rate": 0.7999839666506334,
+          "wasted_ratio": 0.7520163948648687,
+          "max_p99_ms": 2.498202001552272,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.06666666666666667,
+          "miss_rate": 0.8930817610062892,
+          "wasted_ratio": 0.8664777282559103,
+          "max_p99_ms": 1332.6090060007111,
+          "skipped_ticks": 62
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.037037037037037035,
+          "miss_rate": 1.0,
+          "wasted_ratio": 1.0,
+          "max_p99_ms": 12282.422506000948,
+          "skipped_ticks": 399
+        }
+      },
+      "WK11_CSI_NOISE_2DB": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9606481481481483,
+          "miss_rate": 0.028485070525737316,
+          "wasted_ratio": 0.025760233425257777,
+          "max_p99_ms": 19.36305199844355,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.35648148148148157,
+          "miss_rate": 0.8641509433962264,
+          "wasted_ratio": 0.7901577542919012,
+          "max_p99_ms": 2.7717720007058233,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.3587962962962963,
+          "miss_rate": 0.8610062893081761,
+          "wasted_ratio": 0.7835359206419991,
+          "max_p99_ms": 2.0725519994448405,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.9398148148148149,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 3.079725998904905,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.6550925925925927,
+          "miss_rate": 0.3496582483051083,
+          "wasted_ratio": 0.30304291688779733,
+          "max_p99_ms": 10.152169999637405,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.2708333333333333,
+          "miss_rate": 0.8864944252787361,
+          "wasted_ratio": 0.8293084877977636,
+          "max_p99_ms": 1.3109710006756359,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.11342592592592593,
+          "miss_rate": 0.8939588790981979,
+          "wasted_ratio": 0.7143757265993217,
+          "max_p99_ms": 525.019863997295,
+          "skipped_ticks": 46
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.0,
+          "miss_rate": 1.0,
+          "wasted_ratio": 1.0,
+          "max_p99_ms": 9179.056293999747,
+          "skipped_ticks": 357
+        }
+      },
+      "WK12_LARGE_SCALE": {
+        "CLWB_Dual": {
+          "ontime_rate": 0.9907407407407408,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 21.156904000235954,
+          "skipped_ticks": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_rate": 0.44814814814814813,
+          "miss_rate": 0.8790665523703872,
+          "wasted_ratio": 0.8063502513526556,
+          "max_p99_ms": 2.08988800062798,
+          "skipped_ticks": 0
+        },
+        "LLF_PreBatch+CG": {
+          "ontime_rate": 0.44814814814814813,
+          "miss_rate": 0.8790665523703872,
+          "wasted_ratio": 0.805827105534751,
+          "max_p99_ms": 3.33637700005056,
+          "skipped_ticks": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_rate": 0.9574074074074074,
+          "miss_rate": 0.0,
+          "wasted_ratio": 0.0,
+          "max_p99_ms": 12.213587999649459,
+          "skipped_ticks": 0
+        },
+        "Chen_Game+CG": {
+          "ontime_rate": 0.7962962962962963,
+          "miss_rate": 0.18926158863265782,
+          "wasted_ratio": 0.1708088750343222,
+          "max_p99_ms": 15.973677998917994,
+          "skipped_ticks": 0
+        },
+        "DGOLB+CG": {
+          "ontime_rate": 0.2111111111111111,
+          "miss_rate": 0.9345112517580872,
+          "wasted_ratio": 0.8753409105942289,
+          "max_p99_ms": 5.50352599893813,
+          "skipped_ticks": 0
+        },
+        "SFA+CG": {
+          "ontime_rate": 0.0,
+          "miss_rate": 1.0,
+          "wasted_ratio": 1.0,
+          "max_p99_ms": 9187.07464000021,
+          "skipped_ticks": 365
+        },
+        "IBR_5+CG": {
+          "ontime_rate": 0.0,
+          "miss_rate": 1.0,
+          "wasted_ratio": 0.6666666666666666,
+          "max_p99_ms": 3692.2475999999733,
+          "skipped_ticks": 166
+        }
+      }
+    }
+  },
+  "gate4_ood_k4": {
+    "passed": true,
+    "champ_ood_mean": 0.9585714285714285,
+    "best_base_ood_mean": 0.8573414494002729,
+    "champ_ood_worst": 0.9333333333333332,
+    "best_base_ood_worst": 0.7794871794871795,
+    "mean_by_method": {
+      "CLWB_Dual": 0.9585714285714285,
+      "EDF_PreBatch+CG": 0.32835990806579046,
+      "LLF_PreBatch+CG": 0.32656808877397114,
+      "Bambos_ALP+CG": 0.8573414494002729,
+      "Chen_Game+CG": 0.6768952452775983,
+      "DGOLB+CG": 0.19902445593622065,
+      "SFA+CG": 0.15481038569273864
+    },
+    "miss_by_method": {
+      "CLWB_Dual": 0.0031073754288040004,
+      "EDF_PreBatch+CG": 0.9375652292621973,
+      "LLF_PreBatch+CG": 0.9404966027519446,
+      "Bambos_ALP+CG": 0.0017183956916099771,
+      "Chen_Game+CG": 0.22737748616480552,
+      "DGOLB+CG": 0.9447839505759379,
+      "SFA+CG": 0.8454672269759789
+    },
+    "worst_by_method": {
+      "CLWB_Dual": 0.9333333333333332,
+      "EDF_PreBatch+CG": 0.29743589743589743,
+      "LLF_PreBatch+CG": 0.2948717948717949,
+      "Bambos_ALP+CG": 0.7794871794871795,
+      "Chen_Game+CG": 0.5785714285714286,
+      "DGOLB+CG": 0.14,
+      "SFA+CG": 0.0
+    },
+    "per_workload": {
+      "OOD1_ASYM_NEARFAR": {
+        "CLWB_Dual": 0.9333333333333332,
+        "EDF_PreBatch+CG": 0.3156862745098039,
+        "LLF_PreBatch+CG": 0.3156862745098039,
+        "Bambos_ALP+CG": 0.7901960784313725,
+        "Chen_Game+CG": 0.6529411764705882,
+        "DGOLB+CG": 0.23137254901960783,
+        "SFA+CG": 0.15294117647058825
+      },
+      "OOD2_HETDL_CSI2DB": {
+        "CLWB_Dual": 0.980952380952381,
+        "EDF_PreBatch+CG": 0.30476190476190473,
+        "LLF_PreBatch+CG": 0.30238095238095236,
+        "Bambos_ALP+CG": 0.9619047619047619,
+        "Chen_Game+CG": 0.5785714285714286,
+        "DGOLB+CG": 0.2119047619047619,
+        "SFA+CG": 0.20476190476190478
+      },
+      "OOD3_EXTREME_BURST75": {
+        "CLWB_Dual": 0.9866666666666667,
+        "EDF_PreBatch+CG": 0.3955555555555556,
+        "LLF_PreBatch+CG": 0.39333333333333337,
+        "Bambos_ALP+CG": 0.8977777777777778,
+        "Chen_Game+CG": 0.7888888888888889,
+        "DGOLB+CG": 0.14,
+        "SFA+CG": 0.0
+      },
+      "OOD4_SPARSE_SRV": {
+        "CLWB_Dual": 0.9333333333333332,
+        "EDF_PreBatch+CG": 0.29743589743589743,
+        "LLF_PreBatch+CG": 0.2948717948717949,
+        "Bambos_ALP+CG": 0.7794871794871795,
+        "Chen_Game+CG": 0.6871794871794873,
+        "DGOLB+CG": 0.21282051282051284,
+        "SFA+CG": 0.26153846153846155
+      }
+    }
+  },
+  "gate5_loo_ablation": {
+    "passed": true,
+    "champ_k12_mean": 0.9800983921556837,
+    "ablations": {
+      "LOO_no_externality_pricing": {
+        "k12_mean_ontime": 0.9791821864478115,
+        "k12_mean_miss": 0.004091203703421817,
+        "champ_advantage_pp": 0.09162057078722086,
+        "counterexamples": {
+          "L1": "2/4",
+          "L2": "3/3",
+          "L3": "1/4",
+          "CE_2nd": "2/5"
+        }
+      },
+      "LOO_no_lagrangian_defer": {
+        "k12_mean_ontime": 0.6946602934102936,
+        "k12_mean_miss": 0.06654578990417208,
+        "champ_advantage_pp": 28.543809874539015,
+        "counterexamples": {
+          "L1": "2/4",
+          "L2": "1/3",
+          "L3": "3/4",
+          "CE_2nd": "1/5"
+        }
+      },
+      "LOO_no_fluid_contraction": {
+        "k12_mean_ontime": 0.38223195496633,
+        "k12_mean_miss": 0.8465904530542471,
+        "champ_advantage_pp": 59.78664371893537,
+        "counterexamples": {
+          "L1": "0/4",
+          "L2": "0/3",
+          "L3": "0/4",
+          "CE_2nd": "0/5"
+        }
+      }
+    }
+  }
+}

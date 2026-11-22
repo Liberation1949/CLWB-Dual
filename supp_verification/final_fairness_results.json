@@ -1,0 +1,542 @@
+{
+  "elapsed_s": 93.8403685000012,
+  "check_a_equal_shield_k12": {
+    "summary": {
+      "CLWB_Dual": {
+        "k12_ontime_mean_pct": 97.8545401936027,
+        "k12_ontime_ci95_pct": [
+          96.98169560185185,
+          98.68206807659934
+        ],
+        "k12_grant_miss_mean_pct": 0.370539662605665,
+        "delta_vs_clwb_pp": 0.0,
+        "illegal_actions_sum": 0
+      },
+      "Bambos_ALP+CG": {
+        "k12_ontime_mean_pct": 89.55469013047137,
+        "k12_ontime_ci95_pct": [
+          86.04799387100168,
+          92.94360894097223
+        ],
+        "k12_grant_miss_mean_pct": 0.02688800561140987,
+        "delta_vs_clwb_pp": -8.29985006313133,
+        "illegal_actions_sum": 0
+      },
+      "Bambos_ALP+2xShd": {
+        "k12_ontime_mean_pct": 89.64586565055315,
+        "k12_ontime_ci95_pct": [
+          85.95689151560245,
+          93.10614694188914
+        ],
+        "k12_grant_miss_mean_pct": 0.0,
+        "delta_vs_clwb_pp": -8.208674543049554,
+        "illegal_actions_sum": 0
+      },
+      "EDF_PreBatch+CG": {
+        "k12_ontime_mean_pct": 34.384657963564216,
+        "k12_ontime_ci95_pct": [
+          31.895586829981365,
+          36.90542154243326
+        ],
+        "k12_grant_miss_mean_pct": 89.52206000366205,
+        "delta_vs_clwb_pp": -63.469882230038486,
+        "illegal_actions_sum": 0
+      },
+      "EDF_PreBatch+2xShd": {
+        "k12_ontime_mean_pct": 70.43989372895622,
+        "k12_ontime_ci95_pct": [
+          64.32437920875422,
+          76.84379340277779
+        ],
+        "k12_grant_miss_mean_pct": 38.42141751017462,
+        "delta_vs_clwb_pp": -27.41464646464648,
+        "illegal_actions_sum": 0
+      }
+    },
+    "per_workload": {
+      "WK01_BALANCED_MED": {
+        "CLWB_Dual": {
+          "ontime_pct": 100.0,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 98.88888888888889,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 98.95833333333333,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 40.347222222222214,
+          "grant_miss_pct": 82.40991925049806,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 93.81944444444446,
+          "grant_miss_pct": 8.428330741194952,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK02_DENSE_TIGHT": {
+        "CLWB_Dual": {
+          "ontime_pct": 95.06666666666666,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 76.53333333333333,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 75.26666666666668,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 28.6,
+          "grant_miss_pct": 93.37903749672535,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 50.33333333333333,
+          "grant_miss_pct": 59.77256019618553,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK03_DEADLINE_TIGHT": {
+        "CLWB_Dual": {
+          "ontime_pct": 95.4861111111111,
+          "grant_miss_pct": 0.2881875697409678,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 82.22222222222223,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 82.29166666666666,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 25.90277777777778,
+          "grant_miss_pct": 93.0081648780995,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 62.430555555555564,
+          "grant_miss_pct": 42.82500999995483,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK04_HETERO_DEV": {
+        "CLWB_Dual": {
+          "ontime_pct": 98.26388888888889,
+          "grant_miss_pct": 0.18018018018018017,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 89.09722222222221,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 89.375,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 34.23611111111111,
+          "grant_miss_pct": 85.88230476714301,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 75.76388888888889,
+          "grant_miss_pct": 31.203970116029506,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK05_HETERO_DL": {
+        "CLWB_Dual": {
+          "ontime_pct": 99.5,
+          "grant_miss_pct": 0.3,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 94.5,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 93.85714285714286,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 34.21428571428571,
+          "grant_miss_pct": 91.42928271340749,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 71.49999999999999,
+          "grant_miss_pct": 37.890802496805826,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK06_BURST_MODERATE": {
+        "CLWB_Dual": {
+          "ontime_pct": 98.125,
+          "grant_miss_pct": 0.18693221523410203,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 88.125,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 87.8125,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 33.0625,
+          "grant_miss_pct": 93.3938931222146,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 64.4375,
+          "grant_miss_pct": 47.464631057039426,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK07_BURST_HEAVY": {
+        "CLWB_Dual": {
+          "ontime_pct": 96.54545454545455,
+          "grant_miss_pct": 0.6425430072216092,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 85.45454545454547,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 86.06060606060606,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 35.515151515151516,
+          "grant_miss_pct": 93.12838487456668,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 59.63636363636364,
+          "grant_miss_pct": 57.16934776311177,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK08_HIGH_PAYLOAD": {
+        "CLWB_Dual": {
+          "ontime_pct": 99.25,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 92.66666666666666,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 93.08333333333334,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 36.91666666666667,
+          "grant_miss_pct": 89.77957762090452,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 76.58333333333334,
+          "grant_miss_pct": 32.539047560307914,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK09_SMALL_CELL_ASYM": {
+        "CLWB_Dual": {
+          "ontime_pct": 97.03125,
+          "grant_miss_pct": 0.4364126495106923,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 85.390625,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 85.78125,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 31.015625,
+          "grant_miss_pct": 93.0536696345452,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 57.96875,
+          "grant_miss_pct": 54.104728955470875,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK10_DUAL_SUBBAND": {
+        "CLWB_Dual": {
+          "ontime_pct": 98.83333333333333,
+          "grant_miss_pct": 0.3592436974789916,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 97.16666666666667,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 97.38888888888889,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 38.16666666666667,
+          "grant_miss_pct": 80.65626149824202,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 77.61111111111111,
+          "grant_miss_pct": 27.807436949687876,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK11_CSI_NOISE_2DB": {
+        "CLWB_Dual": {
+          "ontime_pct": 97.15277777777779,
+          "grant_miss_pct": 1.9612335126353817,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 90.27777777777777,
+          "grant_miss_pct": 0.32265606733691843,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 91.31944444444444,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 32.63888888888889,
+          "grant_miss_pct": 88.2397616813118,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 76.80555555555557,
+          "grant_miss_pct": 29.341298908472698,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "WK12_LARGE_SCALE": {
+        "CLWB_Dual": {
+          "ontime_pct": 99.0,
+          "grant_miss_pct": 0.09174311926605505,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+CG": {
+          "ontime_pct": 94.33333333333333,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "Bambos_ALP+2xShd": {
+          "ontime_pct": 94.55555555555554,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+CG": {
+          "ontime_pct": 42.0,
+          "grant_miss_pct": 89.90446250628635,
+          "skipped_ticks_sum": 0
+        },
+        "EDF_PreBatch+2xShd": {
+          "ontime_pct": 78.38888888888889,
+          "grant_miss_pct": 32.50984537783422,
+          "skipped_ticks_sum": 0
+        }
+      }
+    }
+  },
+  "check_b_deterministic_parity": {
+    "bl08_wall_vs_fixed0": {
+      "Full": {
+        "wall": {
+          "ontime_pct": 99.88888888888889,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "fixed": {
+          "ontime_pct": 100.0,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "NoShd": {
+        "wall": {
+          "ontime_pct": 47.444444444444436,
+          "grant_miss_pct": 80.74936131027005,
+          "skipped_ticks_sum": 0
+        },
+        "fixed": {
+          "ontime_pct": 100.0,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "NoFld": {
+        "wall": {
+          "ontime_pct": 35.44444444444444,
+          "grant_miss_pct": 100.0,
+          "skipped_ticks_sum": 0
+        },
+        "fixed": {
+          "ontime_pct": 36.0,
+          "grant_miss_pct": 99.13013503178897,
+          "skipped_ticks_sum": 0
+        }
+      },
+      "EDF_PreBatch+CG": {
+        "wall": {
+          "ontime_pct": 100.0,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        },
+        "fixed": {
+          "ontime_pct": 100.0,
+          "grant_miss_pct": 0.0,
+          "skipped_ticks_sum": 0
+        }
+      }
+    },
+    "k12_fixed0": {
+      "CLWB_Dual": {
+        "ontime_mean_pct": 97.53414051226552,
+        "ontime_ci95_pct": [
+          96.50750920664984,
+          98.45847086940837
+        ],
+        "grant_miss_mean_pct": 1.1040378579014853
+      },
+      "Bambos_ALP+CG": {
+        "ontime_mean_pct": 89.98452418530543,
+        "ontime_ci95_pct": [
+          86.30521950344215,
+          93.37031287578162
+        ],
+        "grant_miss_mean_pct": 0.01745248538011696
+      },
+      "EDF_PreBatch+CG": {
+        "ontime_mean_pct": 34.526757906445404,
+        "ontime_ci95_pct": [
+          31.975534192370127,
+          37.01024174031986
+        ],
+        "grant_miss_mean_pct": 89.33066765646466
+      }
+    },
+    "k12_fixed0_per_workload": {
+      "CLWB_Dual": {
+        "WK01_BALANCED_MED": 99.58333333333333,
+        "WK02_DENSE_TIGHT": 93.86666666666667,
+        "WK03_DEADLINE_TIGHT": 95.90277777777777,
+        "WK04_HETERO_DEV": 97.56944444444444,
+        "WK05_HETERO_DL": 99.57142857142857,
+        "WK06_BURST_MODERATE": 98.0625,
+        "WK07_BURST_HEAVY": 96.24242424242425,
+        "WK08_HIGH_PAYLOAD": 99.0,
+        "WK09_SMALL_CELL_ASYM": 96.25,
+        "WK10_DUAL_SUBBAND": 99.05555555555556,
+        "WK11_CSI_NOISE_2DB": 96.25000000000001,
+        "WK12_LARGE_SCALE": 99.05555555555556
+      },
+      "Bambos_ALP+CG": {
+        "WK01_BALANCED_MED": 98.81944444444443,
+        "WK02_DENSE_TIGHT": 76.53333333333333,
+        "WK03_DEADLINE_TIGHT": 82.56944444444446,
+        "WK04_HETERO_DEV": 89.09722222222221,
+        "WK05_HETERO_DL": 94.64285714285714,
+        "WK06_BURST_MODERATE": 88.0625,
+        "WK07_BURST_HEAVY": 86.3030303030303,
+        "WK08_HIGH_PAYLOAD": 93.16666666666666,
+        "WK09_SMALL_CELL_ASYM": 86.328125,
+        "WK10_DUAL_SUBBAND": 97.38888888888889,
+        "WK11_CSI_NOISE_2DB": 91.18055555555557,
+        "WK12_LARGE_SCALE": 95.72222222222223
+      },
+      "EDF_PreBatch+CG": {
+        "WK01_BALANCED_MED": 40.416666666666664,
+        "WK02_DENSE_TIGHT": 28.6,
+        "WK03_DEADLINE_TIGHT": 26.041666666666668,
+        "WK04_HETERO_DEV": 34.30555555555556,
+        "WK05_HETERO_DL": 34.357142857142854,
+        "WK06_BURST_MODERATE": 33.125,
+        "WK07_BURST_HEAVY": 35.57575757575758,
+        "WK08_HIGH_PAYLOAD": 37.08333333333333,
+        "WK09_SMALL_CELL_ASYM": 31.09375,
+        "WK10_DUAL_SUBBAND": 38.55555555555555,
+        "WK11_CSI_NOISE_2DB": 32.77777777777778,
+        "WK12_LARGE_SCALE": 42.3888888888889
+      }
+    },
+    "bitwise_replay_max_diff": 0.06666666666666665,
+    "is_bitwise_deterministic": false
+  },
+  "check_c_noiseless_overshoot": {
+    "WK05_HETERO_DL": {
+      "ontime_mean_pct": 99.21428571428572,
+      "skipped_ticks_sum": 0,
+      "total_edge_grants": 989,
+      "total_edge_misses": 0,
+      "edge_miss_pct": 0.0,
+      "count_lt_2ms": 0,
+      "count_ge_2ms": 0,
+      "median_overshoot_ms": 0.0,
+      "max_overshoot_ms": 0.0
+    },
+    "WK09_SMALL_CELL_ASYM": {
+      "ontime_mean_pct": 96.953125,
+      "skipped_ticks_sum": 0,
+      "total_edge_grants": 911,
+      "total_edge_misses": 5,
+      "edge_miss_pct": 0.5488474204171241,
+      "count_lt_2ms": 5,
+      "count_ge_2ms": 0,
+      "median_overshoot_ms": 0.038599439156739024,
+      "max_overshoot_ms": 0.11009201652312228
+    },
+    "WK03_DEADLINE_TIGHT": {
+      "ontime_mean_pct": 96.59722222222223,
+      "skipped_ticks_sum": 0,
+      "total_edge_grants": 1092,
+      "total_edge_misses": 0,
+      "edge_miss_pct": 0.0,
+      "count_lt_2ms": 0,
+      "count_ge_2ms": 0,
+      "median_overshoot_ms": 0.0,
+      "max_overshoot_ms": 0.0
+    }
+  }
+}
